@@ -884,7 +884,9 @@ public class MapActivity extends AccessibleActivity implements IMapLocationListe
 			int currentMapRotation = settings.ROTATE_MAP.get();
 			if (currentMapRotation == OsmandSettings.ROTATE_MAP_BEARING) {
 				if (location.hasBearing()) {
-					mapView.setRotate(-location.getBearing());
+					if(location.getBearing() != 0f) {
+						mapView.setRotate(-location.getBearing());
+					}
 				} else if (routingHelper.isFollowingMode() && settings.USE_COMPASS_IN_NAVIGATION.get()) {
 					if (previousSensorValue != 0 && Math.abs(MapUtils.degreesDiff(mapView.getRotate(), -previousSensorValue)) > 15) {
 						if(now - lastTimeSensorRotation > 1500 && now - lastTimeSensorRotation < 15000) {
@@ -926,14 +928,14 @@ public class MapActivity extends AccessibleActivity implements IMapLocationListe
 		return zoomDelta;
 	}
 
-	public void navigateToPoint(LatLon point){
+	public void navigateToPoint(LatLon point, boolean updateRoute){
 		if(point != null){
 			settings.setPointToNavigate(point.getLatitude(), point.getLongitude(), null);
 		} else {
 			settings.clearPointToNavigate();
 		}
-		if(routingHelper.isRouteBeingCalculated() || routingHelper.isRouteCalculated() ||
-				routingHelper.isFollowingMode()) {
+		if(updateRoute && ( routingHelper.isRouteBeingCalculated() || routingHelper.isRouteCalculated() ||
+				routingHelper.isFollowingMode())) {
 			routingHelper.setFinalAndCurrentLocation(point, getLastKnownLocation(), routingHelper.getCurrentGPXRoute());
 		}
 		mapLayers.getNavigationLayer().setPointToNavigate(point);

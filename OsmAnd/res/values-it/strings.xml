@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="use_fluorescent_overlays">Sovrapposizioni fluorescenti</string>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+  <string name="use_fluorescent_overlays">Sovrapposizioni fluorescenti</string>
   <string name="use_fluorescent_overlays_descr">Usa colori fluorescenti per mostrare tracce e percorsi</string>
   <string name="offline_edition">Modifiche offline</string>
   <string name="offline_edition_descr">Usa sempre la modifica offline</string>
@@ -27,7 +28,7 @@
   <string name="live_monitoring">﻿Tracking live online</string>
   <string name="live_monitoring_interval_descr">Specifica l\'intervallo del Live Tracking</string>
   <string name="live_monitoring_interval">Intervallo del Live tracking</string>
-  <string name="live_monitoring_url_descr">Specifica l\'indirizzo internet con la sintassi dei parametri : lat={0}, lon={1}, timestamp={2}, hdop={3}, altitude={4}, speed={5}</string>
+  <string name="live_monitoring_url_descr">Specifica l\'indirizzo internet con la sintassi dei parametri: lat={0}, lon={1}, timestamp={2}, hdop={3}, altitude={4}, speed={5}</string>
   <string name="live_monitoring_url">Indirizzo internet per il Live Tracking</string>
   <string name="gpx_monitoring_disabled_warn">Per favore abilita \'Registrazione della traccia in GPX file\' impostazioni.</string>
   <string name="show_current_gpx_title">Mostra la traccia corrente</string>
@@ -50,7 +51,7 @@
   <string name="routing_settings_descr">Specifica le opzioni di navigazione</string>
   <string name="global_settings">Impostazioni globali</string>
   <string name="index_settings">Dati Offline (Scarica)</string>
-  <string name="index_settings_descr">Scarica, visualizza i dettagli, e gestisci le mappe offline</string>
+  <string name="index_settings_descr">Scarica, visualizza i dettagli e gestisci le mappe offline</string>
   <string name="general_settings">Impostazioni generali</string>
   <string name="general_settings_descr">Configura le impostazioni globali</string>
   <string name="global_app_settings">Impostazioni globali app</string>
@@ -68,12 +69,12 @@
   <string name="tip_day_night_mode">Modo giorno/notte</string>
   <string name="tip_day_night_mode_t">\tL\'aspetto della mappa può essere cambiato per alcune mappe vettoriali tra giorno (più luminoso) e notte (più scuro). \n\tI colori scuri sono più sicuri per la guida notturna. \n\tPuoi impostare una regola per il cambio giorno/notte in \'Impostazioni\' -&gt; \'Aspetto delle mappe\' -&gt; \'Modo giorno/notte\'. \n\tLe scelte sono: \n\t\'Alba/Tramonto\' - automatico, controllato dalla posizione del sole (default) \n\t\'Giorno\' - usa sempre la modalità giorno \n\t\'Notte\' - usa sempre la modalità notte \n\t\'Sensore luminosità\' - l\'aspetto della mappa è controllato dal sensore del tuo dispositivo (solo se è presente)</string>
   <string name="tip_osm_improve">Migliorare i dati OSM</string>
-  <string name="tip_osm_improve_t">\tOsmAnd usa mappe basate sui dati di Openstreetmap.org (OSM) e -oltre a visualizzare e navigare le mappe- può essere usato per migliorare la qualità dei dati OSM. Puoi creare e caricare facilmente nuovi PDI o segnalazioni di bug con solo un paio di click!
+  <string name="tip_osm_improve_t">\tOsmAnd usa mappe basate sui dati di Openstreetmap.org (OSM) e -oltre a visualizzare e navigare le mappe- può essere usato per migliorare la qualità dei dati OSM. Puoi creare e caricare facilmente nuovi PDI o segnalazioni di errori con solo un paio di click!
 \n\tPer questo devi prima fornire le credenziali d\'accesso ad OSM in \'Impostazioni\' -&gt; \'Impostazioni generali\' -&gt; \'Editing OSM\'.
 \n\tPer aggiungere un nuovo PDI usa l\'opzione \'Crea un PDI\' nel menù contestuale. Procedi inserendo le informazioni relative al nuovo PDI nella finestra \'Crea PDI\' e infine invialo.
 \n\tGli errori sulle mappe possono essere immediatamente segnalati tramite un bug OSM, e la comunità OSM può correggere velocemente il problema.
 \n\tPer aggiungere un bug OSM usa l\'opzione \'Apri un bug OSM\' nel menù contestuale. Inserisci una descrizione dettagliata del problema e infine inviala con il bottone \'Aggiungi\'.
-\n\tNota che è necessaria la connessione ad Internet per contribuire PDI e bug.</string>
+\n\tNota che è necessaria la connessione ad Internet per contribuire PDI ed errori.</string>
   <string name="download_files_not_enough_space">Non c\'è abbastanza spazio per scaricare %1$s MB (liberi: %2$s).</string>
   <string name="download_files_question_space">Lo spazio disponibile è di {2} MB! Scaricare {0} file(s) ({1} MB)?</string>
   <string name="tip_select_destination_point">Seleziona Punto Destinazione</string>
@@ -143,8 +144,8 @@
   <string name="search_position_map_view">Ultima vista mappa</string>
   <string name="select_search_position">Cerca vicino a:</string>
   <string name="context_menu_item_search">Cerca</string>
-  <string name="tip_recent_changes_0_6_7_t">"Modifiche recenti versione 0.6.7:
-\n\t- Manager dati offline (scaricare, cancellare e backup di dati offlina direttamente da OsmAnd)
+  <string name="tip_recent_changes_0_6_7_t">Modifiche recenti versione 0.6.7:
+\n\t- Manager dati offline (scaricare, cancellare e backup di dati offline direttamente da OsmAnd)
 \n\t- Punti e gruppi Preferiti (categorizza, cancella, gestisci preferiti)
 \n\t- GPX Explorer nella applicazione (vedere percorsi, distanze, velocità, elevazione, ecc.)
 \n\t- Navigazione GPX (opzioni utili, continua la navigazione post crash, supporto rotonde)
@@ -153,7 +154,7 @@
 \n\t- Invio di file GPX alla comunità OSM (http://download.osmand.net/gpx/)
 \n\t- Migliorie al rendering dei vettori
 \n\t- Migliorie al motore TTS (distanza esatta, miglia abilitate)
-\n\t- Fix di bug vari "</string>
+\n\t- Correzione di errori vari</string>
   <string name="save_route_dialog_title">Salva il percorso in formato GPX</string>
   <string name="route_successfully_saved_at">Percorso salvato come \'%1$s\'.</string>
   <string name="filename_input">Nome file: </string>
@@ -175,10 +176,10 @@
   <string name="basemap_missing">la mappa di Base del mondo (che ricopre il mondo per zoom piccoli) è mancante. Puoi scaricare World_basemap_x.obf per ottenerla.</string>
   <string name="vector_data_missing">Mancano i dati (\'offline\') nella scheda SD. Ti consigliamo di scaricarli per poter usare le mappe offline.</string>
   <string name="local_index_gpx_info_show">\n\nClick lungo per mostrare opzioni</string>
-  <string name="local_index_gpx_info_speed">\nVelocità media : %1$s
-\nVelocità massima : %2$s</string>
-  <string name="local_index_gpx_info_elevation">\nAltitudine media : %1$.0f m\nAltitudine minima : %2$.0f m\nAltitudine massima : %3$.0f m\nSalite : %4$.0f m\nDiscese : %5$.0f m</string>
-  <string name="local_index_gpx_info">Subtracks : %1$d\nPunti totali : %2$d\nWay points : %3$d\nDistanza totale : %4$s\nOra partenza : %5$tF, %5$tR\nOra arrivo : %6$tF, %6$tR</string>
+  <string name="local_index_gpx_info_speed">\nVelocità media: %1$s
+\nVelocità massima: %2$s</string>
+  <string name="local_index_gpx_info_elevation">\nAltitudine media: %1$.0f m\nAltitudine minima: %2$.0f m\nAltitudine massima: %3$.0f m\nSalite: %4$.0f m\nDiscese: %5$.0f m</string>
+  <string name="local_index_gpx_info">Sottotraccia: %1$d\nPunti totali: %2$d\nWay points: %3$d\nDistanza totale: %4$s\nOra partenza: %5$tF, %5$tR\nOra arrivo: %6$tF, %6$tR</string>
   <string name="local_index_installed">Edizione</string>
   <string name="local_index_items_backuped">%1$d su %2$d oggetto/i backuppato/i.</string>
   <string name="local_index_items_deleted">%1$d su %2$d oggetto/i eliminato/i.</string>
@@ -186,14 +187,14 @@
   <string name="local_index_no_items_to_do">Nessun oggetto da %1$s</string>
   <string name="local_index_action_do">Stai per %1$s %2$s oggetti/i. Continuare?</string>
   <string name="local_index_descr_title">Manager Dati Offline</string>
-  <string name="local_index_mi_restore">Ripristina</string>
-  <string name="local_index_mi_backup">Backup</string>
+  <string name="local_index_mi_restore">Attiva</string>
+  <string name="local_index_mi_backup">Disattiva</string>
   <string name="local_index_mi_delete">Elimina</string>
   <string name="local_index_mi_reload">Ricarica dalla scheda sd</string>
   <string name="local_index_download">Scarica…</string>
-  <string name="local_index_tile_data">Dati tile: %1$s
-\nZoom minimo : %2$d\nZoom massimo : %3$d\nScaricabile : %4$s
-\nZoom scaricati : %5$s</string>
+  <string name="local_index_tile_data">Dati mattonelle: %1$s
+\nZoom minimo: %2$d\nZoom massimo: %3$d\nScaricabile: %4$s
+\nZoom scaricati: %5$s</string>
   <string name="local_index_poi_data">Dati PDI</string>
   <string name="local_index_address_data">Dati indirizzi</string>
   <string name="local_index_transport_data">Dati trasporti</string>
@@ -209,23 +210,23 @@
   <string name="ttsvoice">Voce TTS</string>
   <string name="search_offline_clear_search">Nuova Ricerca</string>
   <string name="map_text_size_descr">Seleziona la dimensione del testo per i nomi sulla mappa</string>
-  <string name="map_text_size">Dimensione testo</string>
-  <string name="trace_rendering">Info rendering debug</string>
-  <string name="trace_rendering_descr">Visualizza le performance del rendering a scopo di debug</string>
+  <string name="map_text_size">Dimensione testo mappa</string>
+  <string name="trace_rendering">Informazioni diagnostiche disegno</string>
+  <string name="trace_rendering_descr">Visualizza le performance del disegno a scopo di debug</string>
   <string name="tip_recent_changes">Modifiche recenti</string>
-  <string name="tip_recent_changes_0_6_6_t">"Modifiche alla 0.6.6 :
+  <string name="tip_recent_changes_0_6_6_t">Modifiche alla 0.6.6:
 \n\t- motore Text To Speech per la navigazione vocale
 \n\t- Renderer mappa più dettagliato
 \n\t- Mappa mondiale base con il pacchetto app
 \n\t- Migliorie routing offline (sempre sperimentale)
-\n\t- opzioni routing GPX
-\n\t- UI update e fix bug "</string>
+\n\t- Opzioni navigazione GPX
+\n\t- UI aggiornamento e correzione errori</string>
   <string name="voice_not_use">Non usare</string>
   <string name="voice_not_specified">Nessuna</string>
-  <string name="installing_new_resources">Installando nuovi file…</string>
-  <string name="internet_connection_required_for_online_route">Stai per usare un servizio di routing online ma non sei su internet.</string>
+  <string name="installing_new_resources">Scompattando nuovi dati…</string>
+  <string name="internet_connection_required_for_online_route">E\' selezionato un servizio di navigazione online ma la connessione a internet non è disponibile.</string>
   <string name="tts_language_not_supported_title">Lingua non supportata</string>
-  <string name="tts_language_not_supported">La lingua selezionata non è supportata nel motore TTS (text-to-speech) Android installato. Vuoi vedere nel Market un altro motore TTS? Altrimenti verrà utilizzata la lingua TTS di default.</string>
+  <string name="tts_language_not_supported">La lingua selezionata non è supportata nel motore TTS (text-to-speech) Android installato. Vuoi vedere nel Market un altro motore TTS? Altrimenti verrà utilizzata la lingua TTS preimpostata.</string>
   <string name="tts_missing_language_data_title">Dati mancanti</string>
   <string name="tts_missing_language_data">Nessun dato per la lingua selezionata è stato installato. Vuoi installarlo tramite il Market?</string>
   <string name="gpx_option_reverse_route">Inverti direzione GPX</string>
@@ -266,13 +267,16 @@
   <string name="tip_location_sharing_t">\tPuoi condividere posizione di posti interessanti con familiari e amici.
 \n\tPer farlo devi:
 \n\tUsare il \'Menu contestuale mappa\' -&gt; \'Condividi Posizione\'.
-\n\tSeleziona una modo per condividere la posizione. Le scelte sono: E-Mail, SMS(testo), o semplicemente copia le coordinate sulla clipboard.
+\n\tSeleziona una modo per condividere la posizione. Le scelte sono: E-Mail, SMS(testo), o semplicemente copia le coordinate sugli appunti.
 </string>
   <string name="tip_favorites">Punti Preferiti</string>
   <string name="tip_favorites_t">\tI punti usati di frequente possono essere salvati come Preferiti.
+
 \n\tPer salvare un punto come Preferito vai nel menu contestuale, seleziona \'Aggiungi ai preferiti\' e inserisci il nome desiderato. Dopo il salvataggio sarà accessibile nel \'Menu Principale\' -&gt; \'Preferiti\'.
+
 \n\tPremendo a lungo su un Preferito nel menu \'Preferiti\' aprirà le opzioni Naviga verso, modifica, elimina.
-\n\tPer visualizzare i preferiti direttamente sulla mappa attiva il layer \'Preferiti\' su \'Menu contestuale mappa\' -&gt;\'Definisci vista\'.
+
+\n\tPer visualizzare i preferiti direttamente sulla mappa attiva il livello \'Preferiti\' su \'Menu contestuale mappa\' -&gt;\'Definisci vista\'.
 </string>
   <string name="create_poi_link_to_osm_doc">"Classificazione mappa "<u>OSM Online</u> con immagini</string>
   <string name="error_doing_search">Errore nella ricerca offline</string>
@@ -288,13 +292,13 @@
   <string name="tip_navigation">Navigazione</string>
   <string name="tip_navigation_t">\tPrima di iniziare la navigazione devi selezionare una destinazione. Dopo averla selezionata premi \'Menu\' -&gt; \'Percorsi\' sulla mappa e seleziona il tipo di navigazione.</string>
   <string name="tip_search">Ricerca</string>
-  <string name="tip_search_t">\tPuoi cercare i posti direttamente sulla mappa, per indirizzo, luogo, PDI, o preferito predefinito.
+  <string name="tip_search_t">\tPuoi cercare i posti direttamente sulla mappa, per indirizzo, posizione, PDI, o come predefinito preferito.
 \n\tPremendo \'Cerca\' nel menu principale aprirai la ricerca. Ogni elemento ha un menù contestuale con 2 opzioni: \'Naviga verso\' o \'Visualizza sulla mappa\'.
 </string>
   <string name="tip_map_context_menu">Menu contestuale</string>
   <string name="tip_map_context_menu_t">\tIl menu contestuale viene visualizzato premendo a lungo sulla mappa o premendo il pulsante trackball.
 \n\tQuesto visualizza un box con le coordinate del punto. Per aprire il menu, cliccaci sopra. (O premi a lungo per nascondere il menù.)
-\n\tIl menù contestuale contiene tutte le azioni possibili per quel punto (luogo).
+\n\tIl menù contestuale contiene tutte le azioni possibili per quel punto (posizione).
 </string>
   <string name="tip_initial">Consigli</string>
   <string name="tip_initial_t">\tOsmAnd è una applicazione di navigazione con molte funzioni.
@@ -312,7 +316,7 @@
   <string name="mile_per_hour">mph</string>
   <string name="mile">mi</string>
   <string name="send_location_way_choose_title">Condividi la posizione usando</string>
-  <string name="send_location_sms_pattern">Luogo: %1$s\n%2$s</string>
+  <string name="send_location_sms_pattern">Posizione: %1$s\n%2$s</string>
   <string name="send_location_email_pattern">Per vedere la posizione segui il link web %1$s o il link %2$s</string>
   <string name="send_location">Invia posizione</string>
   <string name="context_menu_item_share_location">Condividi posizione</string>
@@ -426,10 +430,10 @@
   <string name="error_reading_gpx">Errore lettura dati GPX</string>
   <string name="vector_data">Mappe vettoriali offline</string>
   <string name="transport_context_menu">Cercare un trasporto pubblico all\'arrivo</string>
-  <string name="point_on_map">Luogo:\n Lat %1$.5f Lon %2$.5f</string>
+  <string name="point_on_map">Posizione:\n Lat %1$.5f Lon %2$.5f</string>
   <string name="osb_bug_name">Errore</string>
   <string name="poi_context_menu_modify">Modificare PDI</string>
-  <string name="poi_context_menu_delete">Eliminare PDI</string>
+  <string name="poi_context_menu_delete">Elimin PDI</string>
   <string name="rotate_map_compass_opt">Con bussola</string>
   <string name="rotate_map_bearing_opt">Nella direzione del movimento</string>
   <string name="rotate_map_none_opt">Nessuna rotazione</string>
@@ -440,8 +444,8 @@
   <string name="fav_file_to_load_not_found">Il file GPX contenente i preferiti non è stato trovato in {0}</string>
   <string name="fav_saved_sucessfully">Preferiti salvati con successo in {0}</string>
   <string name="no_fav_to_save">Nessun preferiti da salvare</string>
-  <string name="import_fav">Importare</string>
-  <string name="export_fav">Esportare</string>
+  <string name="import_fav">Importa</string>
+  <string name="export_fav">Esporta</string>
   <string name="error_occurred_loading_gpx">Errore durante il caricamento del file GPX</string>
   <string name="send_report">Inviare rapporto</string>
   <string name="none_region_found">Non è stata trovata nessuna regione sulla scheda SD. Scarica una regione da internet.</string>
@@ -452,7 +456,7 @@
   <string name="layer_yandex_traffic">Yandex (traffico)</string>
   <string name="layer_route">Percorso</string>
   <string name="layer_favorites">Preferiti</string>
-  <string name="layer_osm_bugs">Bug OSM</string>
+  <string name="layer_osm_bugs">Errori OSM</string>
   <string name="layer_transport">Fermate trasporto pubblico</string>
   <string name="layer_poi">PDI…</string>
   <string name="layer_map">Tipo Mappa…</string>
@@ -543,7 +547,7 @@
   <string name="search_history_int_streets">Incrocio: {0} x {1} in {2}</string>
   <string name="search_history_building">Edifici: {0}, {1}, {2}</string>
   <string name="favorite">Preferito</string>
-  <string name="clear_all">Eliminare tutto</string>
+  <string name="clear_all">Cancella tutto</string>
   <string name="history">Recenti</string>
   <string name="uploading_data">Invio dati…</string>
   <string name="uploading">Invio…</string>
@@ -576,7 +580,7 @@
   <string name="update_existing">Sostituisci</string>
   <string name="only_show">Visualizza solo</string>
   <string name="follow">Segui</string>
-  <string name="recalculate_route_to_your_location">Seleziona il mezzo di trasporto (opzionale):</string>
+  <string name="recalculate_route_to_your_location">Seleziona il mezzo di trasporto:</string>
   <string name="mark_final_location_first">Selezionare prima una destinazione</string>
   <string name="get_directions">Percorsi</string>
   <string name="show_gps_status">Visualizzare lo stato del gps</string>
@@ -650,7 +654,7 @@
   <string name="map_specify_point">Specificare punto</string>
   <string name="show_view_angle_descr">Mostra aspetto della vista basato sulla bussola</string>
   <string name="show_view_angle">Mostra aspetto della vista</string>
-  <string name="stop_navigation">Eliminare destin.</string>
+  <string name="stop_navigation">Elimina destinaz.</string>
   <string name="navigate_to_point">Imposta come destin.</string>
   <string name="map_view_3d_descr">Abilitare la vista 3D sulla mappa</string>
   <string name="map_view_3d">Vista mappa 3D</string>
@@ -660,7 +664,7 @@
   <string name="map_tile_source">Sorgente dei tasselli della mappa</string>
   <string name="map_source">Sorgente mappa</string>
   <string name="use_internet">Usare internet</string>
-  <string name="show_location">Visualizzare luogo</string>
+  <string name="show_location">Visualizzare posizione</string>
   <string name="map_preferences">Mappa</string>
   <string name="settings_activity">Impostazioni</string>
   <string name="show_gps_coordinates_text">Visualizzare coordinate GPS sulla mappa</string>
@@ -701,12 +705,12 @@
   <string name="search_address_building">Civico</string>
   <string name="search_address_building_option">Civico</string>
   <string name="search_address_street_option">Incrocio</string>
-  <string name="search_tabs_location">Luogo</string>
+  <string name="search_tabs_location">Posizione</string>
   <string name="context_menu_item_navigate_point">Naviga verso qui</string>
-  <string name="context_menu_item_add_favorite">Aggiungere ai preferiti</string>
+  <string name="context_menu_item_add_favorite">Aggiungi ai preferiti</string>
   <string name="context_menu_item_update_map">Aggiornare la mappa</string>
   <string name="context_menu_item_open_bug">Segnala un errore OSM</string>
-  <string name="context_menu_item_create_poi">Sostentamento</string>
+  <string name="context_menu_item_create_poi">Crea PDI</string>
   <string name="default_buttons_yes">Si</string>
   <string name="default_buttons_cancel">Annulla</string>
   <string name="default_buttons_apply">Applica</string>
@@ -718,7 +722,7 @@
   <string name="favourites_context_menu_navigate">Navigare verso</string>
   <string name="favourites_context_menu_edit">Modifica preferito</string>
   <string name="favourites_context_menu_delete">Elimina preferito</string>
-  <string name="favourites_remove_dialog_msg">Si è sicuri di voler eliminare il punto preferito \'%s\'?</string>
+  <string name="favourites_remove_dialog_msg">Eliminare il punto preferito \'%s\'?</string>
   <string name="favourites_remove_dialog_success">Il punto preferito {0} è stato eliminato.</string>
   <string name="osb_add_dialog_title">Inserire la descrizione del bug</string>
   <string name="osb_add_dialog_success">Il bug è stato creato</string>
@@ -726,10 +730,10 @@
   <string name="osb_comment_menu_item">Aggiungere commento</string>
   <string name="osb_comment_dialog_message">Messaggio</string>
   <string name="osb_comment_dialog_author">Nome Autore</string>
-  <string name="osb_comment_dialog_title">Aggiungere un commento al bug</string>
-  <string name="osb_comment_dialog_add_button">Aggiungi Commento</string>
-  <string name="osb_comment_dialog_success">Il commento è stato aggiunto</string>
-  <string name="osb_comment_dialog_error">Si è verificata un\'eccezione : il commento non è stato aggiunto</string>
+  <string name="osb_comment_dialog_title">Aggiungendo un commento al bug</string>
+  <string name="osb_comment_dialog_add_button">Aggiungi commento</string>
+  <string name="osb_comment_dialog_success">Il commento è stato aggiunto con successo</string>
+  <string name="osb_comment_dialog_error">Si è verificata un\'eccezione: il commento non è stato aggiunto</string>
   <string name="osb_close_menu_item">Chiudere bug</string>
   <string name="osb_close_dialog_title">Chiusura bug</string>
   <string name="osb_close_dialog_close_button">Chiudi bug</string>
@@ -738,7 +742,7 @@
   <string name="poi_edit_title">Modifica PDI</string>
   <string name="poi_create_title">Crea PDI</string>
   <string name="poi_error_poi_not_found">Il nodo non è stato trovato o l\'amenità non è un nodo singolo</string>
-  <string name="poi_remove_confirm_template">Si è sicuri di voler eliminare {0} (inserire commento)?</string>
+  <string name="poi_remove_confirm_template">Eliminare {0} (inserire un commento)?</string>
   <string name="poi_remove_title">Eliminazione PDI</string>
   <string name="default_buttons_delete">Elimina</string>
   <string name="poi_remove_success">PDI eliminato correttamente</string>
@@ -758,7 +762,7 @@
   <string name="filter_current_poiButton">Filtro</string>
   <string name="edit_filter_delete_menu_item">Elimina</string>
   <string name="edit_filter_save_as_menu_item">Salva come</string>
-  <string name="edit_filter_delete_dialog_title">Si è sicuri di eliminare il filtro?</string>
+  <string name="edit_filter_delete_dialog_title">Eliminare il filtro selezionato?</string>
   <string name="edit_filter_delete_message">Il filtro {0} è stato eliminato</string>
   <string name="edit_filter_create_message">Il filtro {0} è stato creato</string>
   <string name="default_buttons_selectall">Selezionare tutto</string>
@@ -798,7 +802,7 @@
 \n\t - Il calcolo dei percorsi offline diventa più solido
 \n\t - *Miglioramento usabilità e UI*
 \n\t- Miglioramenti in svariate aree "</string>
-  <string name="osm_editing_plugin_description">Questo plugin facilita il feedback ad OSM come la raccolta/modifica di Punti di interesse, l\'apertura/commento di bug OSM, e l\'invio di tracce registrate (richiede le credenziali OSM).</string>
+  <string name="osm_editing_plugin_description">Mostra le impostazioni necessarie per contributi a OSM come la raccolta/modifica dei PDI di OSM, aprire/commentare errori di OSM e inviare file GPX registrati (richiede le credenziali di OSM).</string>
   <string name="vector_maps_may_display_faster_on_some_devices">Le mappe vettoriali dovrebbero apparire più velocemente. Su certi dispositivi potrebbero non funzionare bene.</string>
   <string name="simulate_route_progression_manually">Simula l\'avanzamento del tragitto manualmente</string>
   <string name="play_commands_of_currently_selected_voice">Esegui i comandi della voce attualmente selezionata</string>
@@ -818,8 +822,8 @@
   <string name="validate_gpx_upload_name_pwd">Imposta username e password di OSM per caricare file GPX.</string>
   <string name="default_buttons_support">Sostieni</string>
   <string name="support_new_features">Sostieni nuove funzionalità</string>
-  <string name="show_ruler_level_descr">Mostra il righello sulla mappa</string>
-  <string name="show_ruler_level">Mostra il righello</string>
+  <string name="show_ruler_level_descr">Mostra la scala grafica</string>
+  <string name="show_ruler_level">Mostra la scala grafica</string>
   <string name="info_button">Info</string>
   <string name="back_to_location">Torna alla posizione</string>
   <string name="help">Aiuto</string>
@@ -897,18 +901,18 @@
   <string name="favourites_edit_dialog_name">Nome</string>
   <string name="favourites_edit_dialog_category">Categoria</string>
   <string name="local_index_routing_data">Dati per il routing</string>
-  <string name="navigate_point_format">Formato :</string>
+  <string name="navigate_point_format">Formato:</string>
   <string name="poi_search_desc">Ricerca PDI (Punti di Interesse)</string>
   <string name="address_search_desc">Ricerca degli indirizzi</string>
   <string name="navpoint_search_desc">Coordinate</string>
-  <string name="transport_search_desc">Ricerca dei trasporti</string>
+  <string name="transport_search_desc">Ricerca dei trasporti pubblici</string>
   <string name="favourites_search_desc">Ricerca dei preferiti</string>
   <string name="history_search_desc">Cronologia di ricerca</string>
   <string name="rendering_attr_noPolygons_description">Rende trasparenti tutte le aree rappresentanti caratteristiche</string>
   <string name="rendering_attr_noPolygons_name">No poligoni</string>
-  <string name="rendering_attr_appMode_name">Modalità di rendering</string>
+  <string name="rendering_attr_appMode_name">Modalità di disegno</string>
   <string name="rendering_attr_appMode_description">Ottimizzazione della mappa per i rispettivi Profili Utente</string>
-  <string name="rendering_attr_contourLines_description">Mostra lo zoom minimo a cui mostrare la mappa se disponibile. Potrebbe essere necessario un file SRTM separato.</string>
+  <string name="rendering_attr_contourLines_description">Mostra dal livello di zoom (necessita del file SRTM):</string>
   <string name="rendering_attr_contourLines_name">Mostra curve di livello</string>
   <string name="rendering_attr_hmRendered_description">Aumenta la quantità di dettagli mostrati</string>
   <string name="rendering_attr_hmRendered_name">Mostra più dettagli sulla mappa</string>
@@ -1022,39 +1026,75 @@
 <string name="show_warnings_title">Mostra avvertimenti…</string>
 <string name="show_warnings_descr">Mostra limiti di velocità, autovelox, dossi rallentatori e altri avvertimenti</string>
 <string name="map_widget_fluorescent">Itinerari fluorescenti</string>
-<string name="map_widget_show_ruler">Righello</string>
+<string name="map_widget_show_ruler">Scala grafica</string>
 <string name="map_widget_appearance">Varie:</string>
 <string name="map_widget_view_direction">﻿Direzione di orientamento</string>
 <string name="map_widget_transparent">Aspetto trasparente</string>
 <string name="monitoring_mode_off">Salva GPX</string>
-<string name="monitoring_mode_on">Ferma\n GPX reg.</string>
+<string name="monitoring_mode_on">Ferma\n reg. GPX</string>
 <string name="gps_wakeup_interval">﻿Intervallo di risveglio GPS: %s</string>
 <string name="int_continuosly">Continuo</string>
 <string name="email">e-mail</string>
-<string name="tip_rotation_switching_t_v2">﻿\tTu puoi cambiare, se e come vuoi, la rotazione della visualizzazione della mappa cliccando ripetutamente sull\'icona della bussola nello schermo della mappa.↵
-\n\tLe scelte sono:↵
-\n\t\'Non ruotare (nord in alto)\' - La mappa non sarà ruotata. Il Nord sarà sempre in alto↵
-\n\t\'Nella direzione del movimento\' - La mappa sarà sempre allineata alla vostra direzione↵
-\n\t\'Con la bussola\' - La mappa sarà sempre allineata alla lettura della bussola del dispositivo↵</string>
-<string name="tip_day_night_mode_t_v2">\tL\'aspetto della mappa può, per alcune mappe vettoriali, essere cambiato fra diurno (luminoso) e notturno (scuro).↵
-\n\tI colori notturni sono più sicuri per la guida notturna.↵
-\n\tTu puoi impostare una regola per il cambio giorno/notte in \'Menu\' -&gt; \'Configurazione schermo...\' -&gt;\'Giorno/notte mappa\'.↵
-\n\tLe scelte sono:↵
-\n\t\'Alba/Tramonto\' - automaticamente, in base alla posizione del sole (preimpostato)↵
-\n\t\'Day\' - usa sempre il modo diurno↵
-\n\t\'Night\' - usa sempre il modo notturno ↵
+<string name="tip_rotation_switching_t_v2">﻿\tTu puoi cambiare, se e come vuoi, la rotazione della visualizzazione della mappa cliccando ripetutamente sull\'icona della bussola nello schermo della mappa.
+\n\tLe scelte sono:
+\n\t\'Non ruotare (nord in alto)\' - La mappa non sarà ruotata. Il Nord sarà sempre in alto
+\n\t\'Nella direzione del movimento\' - La mappa sarà sempre allineata alla vostra direzione
+\n\t\'Con la bussola\' - La mappa sarà sempre allineata alla lettura della bussola del dispositivo</string>
+<string name="tip_day_night_mode_t_v2">\tL\'aspetto della mappa può, per alcune mappe vettoriali, essere cambiato fra diurno (luminoso) e notturno (scuro).
+\n\tI colori notturni sono più sicuri per la guida notturna.
+\n\tTu puoi impostare una regola per il cambio giorno/notte in \'Menu\' -&gt; \'Configurazione schermo...\' -&gt;\'Giorno/notte mappa\'.
+\n\tLe scelte sono:
+\n\t\'Alba/Tramonto\' - automaticamente, in base alla posizione del sole (preimpostato)
+\n\t\'Day\' - usa sempre il modo diurno
+\n\t\'Night\' - usa sempre il modo notturno
 \n\t\'Sensore di luminosità\' - l\'aspetto della mappa è controllato dal sensore di luminosità del dispositivo (solo se presente)</string>
-<string name="tip_map_switch_t_v2">\tLa sorgente della mappa e i livelli visualizzati sono cambiati attraverso \'Menu\'-&gt;\'Imposta visualizzazione\'in visualizzazione mappa.↵
-\n\tSotto \'Sorgente mappa…\'tu puoi scegliere di usare le mappe vettoriali offline precaricate, predefinito (online) sorgenti di tasselli (attiva il \'Mappe online\' plugin per questo), o mappe create manualmente usando per esempio OsmAndMapCreator sul PC.↵
-\n\tOsmAnd supporta anche sorgenti su misura.</string>
-<string name="tip_app_mode_t_v2">\tOsmAnd supporta differenti (personalizzabili) profili dell\'applicazione per differenti tipi di utilizzo.↵
-\n\tPuoi cambiare profilo attraverso il pulsante profilo nell\'angolo inferiore sinistro dello schermata della mappa (icona automobile, bicicletta, o pedone), oppure quando creai un itinerario.</string>
+<string name="tip_map_switch_t_v2">\tLa sorgente della mappa e i livelli visualizzati sono cambiati attraverso \'Menu\'-&gt;\'Imposta visualizzazione\' in visualizzazione mappa.
+\n\tSotto \'Sorgente mappa…\'tu puoi scegliere di usare le mappe vettoriali offline precaricate, predefinito (online) sorgenti di tasselli (attiva il \'Mappe online\' plugin per questo), o mappe create manualmente usando per esempio OsmAndMapCreator sul PC.
+\n\tOsmAnd supporta anche sorgenti su misura.
+</string>
+<string name="tip_app_mode_t_v2">\tOsmAnd supporta differenti (e personalizzabili) profili dell\'applicazione per differenti tipi di utilizzo.
+\n\tPuoi cambiare profilo attraverso il pulsante profilo nell\'angolo inferiore sinistro dello schermata della mappa (icona automobile, bicicletta, o pedone), oppure quando creai un itinerario.
+</string>
 <string name="osmand_short_description_80_chars">OsmAnd è un\'applicazione a sorgente aperto di navigazione per mappe offline e online</string>
 <string name="osmand_long_description_1000_chars">
-" OsmAnd (OSM Automatizzata Navigazione Direzioni)  OsmAnd è una applicazione di navigazione, a sorgente aperto, con accesso a una grande varietà di dati mondiali di OpenStreetMap (OSM). Tutte le mappe (vettoriali o a tasselli) posso essere memorizzate nella scheda di memoria del telefono per essere utilizzate offline. OsmAnd offre anche la funzionalità del calcolo dell\'itinerario online che offline compreso la voce guida curva per curva. Alcune delle caratteristiche principali: - Funzionalità completa anche disconnessi dalla rete (conserva le mappe vettoriali o a tasselli in una cartella selezionabile) - Mappe vettoriali offline compatte per tutto il mondo intero a disposizione - Scarica le mappe delle nazioni o delle regioni direttamente dal programma↵ - Possibilità di sovrapposizione di diversi strati, come tracce GPX o di navigazione, punti di interesse, preferiti, curve di livello, fermate dei mezzi pubblici, mappe aggiuntive con trasparenza personalizzabile - Ricerca offline per indirizzi e luoghi (PDI) - Calcolo del percorso per brevi distanze (sperimentale) - Modalità automobile, bicicletta e pedonale con: - Commutazione opzionale automatica della vista giorno/notte - Zoom automatico opzionale in base alla velocità - Allineamento della mappa in base alla direzione o alla bussola Limitazioni di questa versione gratuita di OsmAnd: - Numero di mappe scaricabili limitato - Non funziona l\'accesso ai PDI offline di Wikipedia OsmAnd è attivamente in fase di sviluppo e il nostri progetto e il suo ulteriore progresso si basa su contribuiti finanziari per lo sviluppo e la prova di nuove funzionalità. Vi preghiamo di considerare l\'acquisto di OsmAnd+ o il finanziamento di specifiche nuove funzioni o una donazione generica su osmand.net"</string>
+" OsmAnd (OSM Automatizzata Navigazione Direzioni)
+
+\n\tOsmAnd è una applicazione di navigazione, a sorgente aperto, con accesso a una grande varietà di dati mondiali di OpenStreetMap (OSM). Tutte le mappe (vettoriali o a tasselli) posso essere memorizzate nella scheda di memoria del telefono per essere utilizzate offline. OsmAnd offre anche la funzionalità del calcolo dell\'itinerario online che offline compreso la voce guida curva per curva. 
+
+\n\tAlcune delle caratteristiche principali: 
+\n\t- Funzionalità completa anche disconnessi dalla rete (conserva le mappe vettoriali o a tasselli in una cartella selezionabile) 
+\n\t- Mappe vettoriali offline compatte per tutto il mondo intero a disposizione 
+\n\t- Scarica le mappe delle nazioni o delle regioni direttamente dal programma 
+\n\t- Possibilità di sovrapposizione di diversi strati, come tracce GPX o di navigazione, punti di interesse, preferiti, curve di livello, fermate dei mezzi pubblici, mappe aggiuntive con trasparenza personalizzabile 
+\n\t- Ricerca offline per indirizzi e luoghi (PDI) 
+\n\t- Calcolo del percorso per brevi distanze (sperimentale) - Modalità automobile, bicicletta e pedonale con: - Commutazione opzionale automatica della vista giorno/notte - Zoom automatico opzionale in base alla velocità - Allineamento della mappa in base alla direzione o alla bussola 
+\n\t
+Limitazioni di questa versione gratuita di OsmAnd: 
+\n\t- Numero di mappe scaricabili limitato 
+\n\t- Non funziona l\'accesso ai PDI offline di Wikipedia 
+\n\t
+\n\tOsmAnd è attivamente in fase di sviluppo e il nostri progetto e il suo ulteriore progresso si basa su contribuiti finanziari per lo sviluppo e la prova di nuove funzionalità. Vi preghiamo di considerare l\'acquisto di OsmAnd+ o il finanziamento di specifiche nuove funzioni o una donazione generica su osmand.net"</string>
 <string name="osmand_plus_short_description_80_chars">OsmAnd è un\'applicazione a sorgente aperto per la navigazione con mappe online e offline</string>
 <string name="osmand_plus_long_description_1000_chars">
-" OsmAnd+ (OSM Automatizzata Navigazione Direzioni)  OsmAnd+ è una applicazione di navigazione, a sorgente aperto, con accesso a una grande varietà di dati mondiali di OpenStreetMap (OSM). Tutte le mappe (vettoriali o a tasselli) posso essere memorizzate nella scheda di memoria del telefono per essere utilizzate offline. OsmAnd offre anche la funzionalità del calcolo dell\'itinerario online che offline compreso la voce guida curva per curva. OsmANd+ è la versione a pagamento, tramite l\'acquisto dell\'applicazione sostieni il progetto, finanzi lo sviluppo di nuove funzionalità, e ricevi gli ultimi aggiornamenti. Alcune delle caratteristiche principali: - Funzionalità completa anche disconnessi dalla rete (conserva le mappe vettoriali o a tasselli in una cartella selezionabile) - Mappe vettoriali offline compatte per tutto il mondo intero a disposizione - Scarica le mappe delle nazioni o delle regioni direttamente dal programma↵ - Possibilità di sovrapposizione di diversi strati, come tracce GPX o di navigazione, punti di interesse, preferiti, curve di livello, fermate dei mezzi pubblici, mappe aggiuntive con trasparenza personalizzabile - Ricerca offline per indirizzi e luoghi (PDI) - Calcolo del percorso per brevi distanze (sperimentale) - Modalità automobile, bicicletta e pedonale con:↵ - Commutazione opzionale automatica della vista giorno/notte - Zoom automatico opzionale in base alla velocità↵ - Allineamento della mappa in base alla direzione o alla bussola"</string>
+OsmAnd+ (OSM Automatizzata Navigazione Direzioni)
+\n\t
+\n\tOsmAnd+ è una applicazione di navigazione, a sorgente aperto, con accesso a una grande varietà di dati mondiali di OpenStreetMap (OSM). Tutte le mappe (vettoriali o a tasselli) posso essere memorizzate nella scheda di memoria del telefono per essere utilizzate offline. OsmAnd offre anche la funzionalità del calcolo dell\'itinerario online che offline compreso la voce guida curva per curva.
+\n\t
+\n\tOsmANd+ è la versione a pagamento, tramite l\'acquisto dell\'applicazione sostieni il progetto, finanzi lo sviluppo di nuove funzionalità, e ricevi gli ultimi aggiornamenti. 
+\n\t
+\n\tAlcune delle caratteristiche principali: 
+\n\t- Funzionalità completa anche disconnessi dalla rete (conserva le mappe vettoriali o a tasselli in una cartella selezionabile) 
+\n\t- Mappe vettoriali offline compatte per tutto il mondo intero a disposizione 
+\n\t- Scarica le mappe delle nazioni o delle regioni direttamente dal programma 
+\n\t- WIkipedia Offline Wikipedia (scarica i PDI Wikipedia), ottimo per la visualizzazione
+\n\t- Possibilità di sovrapposizione di diversi strati, come tracce GPX o di navigazione, punti di interesse, preferiti, curve di livello, fermate dei mezzi pubblici, mappe aggiuntive con trasparenza personalizzabile 
+\n\t- Ricerca offline per indirizzi e luoghi (PDI) 
+\n\t- Calcolo del percorso per brevi distanze (sperimentale) 
+\n\t- Modalità automobile, bicicletta e pedonale con: 
+\n\t- commutazione opzionale automatica della vista giorno/notte 
+\n\t- zoom automatico opzionale in base alla velocità 
+\n\t- allineamento della mappa in base alla direzione o alla bussola
+\n\t- opzionali indicazione di corsia, indicazione del limite di velocità, voci registrate e TTS</string>
 <string name="tip_recent_changes_0_8_3_t">Cambiamenti nella 0.8.3:
 \n\t* Migliorata la guida dell\'itinerario
 \n\t* Opzione evita autostrade
