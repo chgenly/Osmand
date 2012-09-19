@@ -29,7 +29,7 @@ public class PoiFilter {
 	protected String filterId;
 	protected String name;
 	protected String nameFilter;
-	private final boolean isStandardFilter;
+	protected boolean isStandardFilter;
 	
 	protected final OsmandApplication application;
 	
@@ -51,7 +51,7 @@ public class PoiFilter {
 		}
 	}
 	
-	// constructor for standard filters
+	// constructor for user defined filters
 	public PoiFilter(String name, String filterId, Map<AmenityType, LinkedHashSet<String>> acceptedTypes, OsmandApplication app){
 		application = app;
 		isStandardFilter = false;
@@ -145,12 +145,13 @@ public class PoiFilter {
 	}
 	
 	public ResultMatcher<Amenity> getResultMatcher(final ResultMatcher<Amenity> matcher){
-		if(nameFilter != null) {
+		final String filter = nameFilter;
+		if(filter != null) {
 			final boolean en = application.getSettings().USE_ENGLISH_NAMES.get();
 			return new ResultMatcher<Amenity>() {
 				@Override
 				public boolean publish(Amenity object) {
-					if(!OsmAndFormatter.getPoiStringWithoutType(object, en).toLowerCase().contains(nameFilter) || 
+					if(!OsmAndFormatter.getPoiStringWithoutType(object, en).toLowerCase().contains(filter) || 
 							(matcher != null && !matcher.publish(object))) {
 						return false;
 					}
@@ -308,6 +309,10 @@ public class PoiFilter {
 	
 	public boolean isStandardFilter(){
 		return isStandardFilter;
+	}
+	
+	public void setStandardFilter(boolean isStandardFilter) {
+		this.isStandardFilter = isStandardFilter;
 	}
 	
 	public OsmandApplication getApplication() {

@@ -747,7 +747,7 @@ public class IndexCreator {
 		creator.setZoomWaySmothness(2);
 		MapRenderingTypes rt = MapRenderingTypes.getDefault();
 		MapZooms zooms = MapZooms.getDefault(); // MapZooms.parseZooms("15-");
-//		creator.setNodesDBFile(new File("/home/victor/projects/OsmAnd/data/osm-gen/nodes.tmp.odb"));
+		creator.setNodesDBFile(new File("/home/victor/projects/OsmAnd/data/osm-gen/nodes.tmp.odb"));
 		creator.generateIndexes(new File("/home/victor/projects/OsmAnd/temp/map.osm"),
 //		creator.generateIndexes(new File("/home/victor/projects/OsmAnd/data/osm-maps/luxembourg.osm.pbf"),
 //		creator.generateIndexes(new File("/home/victor/projects/OsmAnd/data/osm-maps/RU-SPE.osm.bz2"),
@@ -756,7 +756,7 @@ public class IndexCreator {
 		
 		// BASEMAP generation
 //		zooms = MapZooms.parseZooms("1-2;3;4-5;6-7;8-9;10-");
-//		creator.setMapFileName("basemap_2.obf");
+//		creator.setMapFileName("World_basemap_2.obf");
 //		File basemapParent = new File("/home/victor/projects/OsmAnd/data/basemap/ready/");
 //		creator.generateBasemapIndex(new ConsoleProgressImplementation(1), null, zooms, rt, log, "basemap", 
 //				new File(basemapParent, "10m_coastline_out.osm"),

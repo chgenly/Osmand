@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="show_warnings_title">Mostra els missatges d\'avís…</string>
 <string name="map_widget_fluorescent">Rutes amb fluorescència</string>
 <string name="map_widget_show_ruler">Mostra el regle</string>
@@ -769,4 +769,64 @@
 <string name="show_point_options">Opcions de localització</string>
 <string name="renderer_load_sucess">El renderitzador s\'ha carregat correctament</string>
 <string name="fav_points_not_exist">No hi ha punts preferits</string>
+<string name="tip_recent_changes_0_8_0_t">Canvis a 0.8.0 :↵
+\n\t- *Funcionalitats de plugins*↵
+\n\t    - La majoria de funcionalitats estan agrupades per característiques i poden ser habilitades/deshabilitades en el gestor de plugins.↵
+Pots habilitat (en línia o emmagatzemats)fonts de tessel·les de mapa, preferències de seguiment i moltes altres noves i anteriors característiques.     ↵
+\n\t- *Nou suport per dades de mapa fora línia*↵
+\n\t    - El dibuixat de mapa ha esdevingut mes ràpid i precís(els problemes amb la línia de costa i les àrees inundades estan majoritàriament solucionats). ↵
+\n\t    - Necessites descarregar completament totes les dades fora de línia( les dades antigues no seran suportades)↵
+\n\t- *Calcul de rutes fora línia* ↵
+\n\t	- El calcul de rutes fora línia ha esdevingut mes robust↵
+\n\t  *Usabilitat i experiència d\'IU*↵
+\n\t	- Millorada en moltes àrees	 ↵</string>
+<string name="tip_recent_changes_0_8_2_t">Canvis a 0.8.2 :
+		\n\t* Calcul de rutes millorat
+		\n\t* Enginys dinamics de mapes
+		\n\t* Cofiguracions de mapa mogudes a la pantalla de mapa
+		\n\t* Boto de bloqueig de pantalla en serveis de registre
+		\n\t* Corretgit Arabic, Kannada scripting i llenguatges RTL
+	</string>
+<string name="gpxup_trackable">Seguible</string>
+<string name="search_offline_geo_error">No s\'ha pogut analitzar la geo intenció \'%s\'</string>
+<string name="amenity_type_geocache">Geoenmegatzament</string>
+<string name="use_osmand_routing_service_descr">L\'us de la navagacio fora de línia d\'OsmAnd s\'aplica nomes a rutes &gt; 20km (experimental)</string>
+<string name="btn_advanced_mode">Mode avançat...</string>
+<string name="poi_filter_parking">Aparcament</string>
+<string name="poi_filter_public_transport">Transport Públic</string>
+<string name="poi_filter_emergency">Emergències</string>
+<string name="poi_filter_restaurants">Restaurants</string>
+<string name="osm_editing_plugin_description">Mostra les preferències necessaries per la retroalimentació d\'OSM com recollir/modificar PDIs d\'OSM,obrir/comentar els errors d\'OSM i contribuir amb fitxers GPX enregistrats(requereix credencials d\'OSM).</string>
+<string name="tip_rotation_switching_t_v2">\tPots canviar com el mapa rota clickant repetidament en l\'icona de la brúixola de la pantalla.
+		\n\tLes opcions son:
+		\n\t\'No rotar (el nord es amunt)\' - El mapa no rotarà.El nord sempre serà amunt
+		\n\t\'Cap a la direcció del moviment\' - El mapa s\'alinearà contínuament cap a la teva direcció
+		\n\t\'A la brúixola\' - El mapa s\'alinearà contínuament amb la brúixola del dispositiu.
+	</string>
+<string name="tts_language_not_supported">La llengua seleccionada no esta suportada per el motor de TAV(text a veu) d\'Android insta-lat.Vols anar al Market per veure altres motors TAV? Altrament el s\'usarà la llengua del TAV per defecte.</string>
+<string name="tip_map_switch_t_v2">\tLa font del mapa i les capes mostrades es poden canvia via \'Menu\' -&gt; \'Definir vista\' en la vista del mapa.
+		\n\tSota \'Font del mapa…\' pots triar entre usar els mapes vectorials,font de tessel·la predeterminades (activades a \'Mapes en línia\' plugin per això), o mapes creats manualment usant per exemple OsmAndCreator en el teu PC.
+		\n\tOsmAnd també suporta fonts personalitzades.
+	</string>
+<string name="tip_map_context_menu_t">\tEl menú contextual de mapa esta disponible prement i aguantant en el mapa o prement el boto de la bola de desplaçament.
+		\n\tAixò produeix una caixa amb les coordenades del punt.Per obrir el menú de diàleg del mapa,toca\'l.(O prem i aguanta per amagar la caixa un altre cop.)
+		\n\tEl menú contextual conte totes les accions referents a un punt(localització).
+	</string>
+<string name="tip_initial_t">\tOsmAnd es una aplicació de navegació amb moltes característiques. 
+		\n\tCom a una introducció bàsica alguns consells s\'enllaçen a la pantalla principal.
+	</string>
+<string name="send_location_way_choose_title">Comparteix l\'ubicació usant</string>
+<string name="old_map_index_is_not_supported">Format de mapa discontinuat \'\'{0}\'\' no esta suportat</string>
+<string name="select_max_zoom_preload_area">Selecciona el màxim zoom per precarregar</string>
+<string name="renderers_descr">Escull l\'aparença de dibuixat</string>
+<string name="transport_searching_transport">Resultats de transport(sense disti):</string>
+<string name="transport_searching_route">Resultats de transport ({0} a disti):</string>
+<string name="map_route_by_gpx">Navegar usant GPX</string>
+<string name="layer_transport_route">Ruta de transport</string>
+<string name="layer_transport">Parades de transport</string>
+<string name="voice_data_unavailable">Les dades de veu seleccionades no estan disponibles</string>
+<string name="search_poi_location">Buscant senyal...</string>
+<string name="opening_hours_not_supported">Format d\'horaris d\'obertura no suportat per a l\'edició</string>
+<string name="transport_to_go_after">prioritza distancia</string>
+<string name="hello">Aplicació de navegació OsmAnd</string>
 </resources>

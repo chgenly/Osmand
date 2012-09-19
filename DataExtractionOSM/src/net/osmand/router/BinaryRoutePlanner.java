@@ -165,15 +165,90 @@ public class BinaryRoutePlanner {
 		return road;
 	}
 	
+	public List<RouteSegmentResult> searchRoute(final RoutingContext ctx, RouteSegment start, RouteSegment end, List<RouteSegment> intermediate, boolean leftSideNavigation) throws IOException {
+		if(intermediate != null && intermediate.size() > 0) {
+			ArrayList<RouteSegment> ps = new ArrayList<RouteSegment>(intermediate);
+			ArrayList<RouteSegmentResult> firstPartRecalculatedRoute = null;
+			ArrayList<RouteSegmentResult> restPartRecalculatedRoute = null;
+			if (ctx.previouslyCalculatedRoute != null) {
+				List<RouteSegmentResult> prev = ctx.previouslyCalculatedRoute;
+				long id = intermediate.get(0).getRoad().id;
+				int ss = intermediate.get(0).getSegmentStart();
+				for (int i = 0; i < prev.size(); i++) {
+					RouteSegmentResult rsr = prev.get(i);
+					if (id == rsr.getObject().getId() && ss == rsr.getEndPointIndex()) {
+						firstPartRecalculatedRoute = new ArrayList<RouteSegmentResult>(prev.subList(0, i + 1));
+						restPartRecalculatedRoute = new ArrayList<RouteSegmentResult>(prev.subList(i + 1, prev.size()));
+						break;
+					}
+				}
+			}
+			ps.add(end);
+			ps.add(0, start);
+			List<RouteSegmentResult> results = new ArrayList<RouteSegmentResult>();
+			for (int i = 0; i < ps.size() - 1; i++) {
+				RoutingContext local = new RoutingContext(ctx.config);
+				local.copyLoadedDataAndClearCaches(ctx);
+				if(i == 0) {
+					local.previouslyCalculatedRoute = firstPartRecalculatedRoute;
+				}
+				local.visitor = ctx.visitor;
+				List<RouteSegmentResult> res = searchRouteInternal(local, ps.get(i), ps.get(i + 1), leftSideNavigation);
+				results.addAll(res);
+				ctx.distinctLoadedTiles += local.distinctLoadedTiles;
+				ctx.distinctUnloadedTiles.addAll(local.distinctUnloadedTiles);
+				ctx.loadedTiles += local.loadedTiles;
+				ctx.visitedSegments += local.visitedSegments;
+				ctx.loadedPrevUnloadedTiles += local.loadedPrevUnloadedTiles;
+				ctx.timeToCalculate += local.timeToCalculate;
+				ctx.timeToLoad += local.timeToLoad;
+				ctx.relaxedSegments += local.relaxedSegments;
+				
+				List<RoutingTile> toUnload = new ArrayList<RoutingContext.RoutingTile>();
+				for(RoutingTile t : local.tiles.valueCollection()){
+					if(!ctx.tiles.contains(t.getId())) {
+						toUnload.add(t);
+					}
+				}
+				for(RoutingTile tl : toUnload) {
+					local.unloadTile(tl, false);
+				}
+				if(restPartRecalculatedRoute != null) {
+					results.addAll(restPartRecalculatedRoute);
+					break;
+				}
+			}
+			Object[] vls = ctx.tiles.values();
+			for (Object tl : vls) {
+				if (((RoutingTile) tl).isLoaded()) {
+					ctx.unloadTile((RoutingTile) tl, false);
+				}
+			}
+			printResults(ctx, start, end, results);
+			return results;
+		}
+		return searchRoute(ctx, start, end, leftSideNavigation);
+	}
+	
+	public List<RouteSegmentResult> searchRoute(final RoutingContext ctx, RouteSegment start, RouteSegment end, boolean leftSideNavigation) throws IOException {
+		List<RouteSegmentResult> result = searchRouteInternal(ctx, start, end, leftSideNavigation);
+		if(result != null) {
+			printResults(ctx, start, end, result);
+		}
+		Object[] vls = ctx.tiles.values();
+		for(Object tl : vls) {
+			ctx.unloadTile((RoutingTile) tl, false);
+		}
+		
+		return result;
+	}
 	
 	
-	// TODO TO-DO U-TURN
-	// TODO fastest/shortest way
 	/**
 	 * Calculate route between start.segmentEnd and end.segmentStart (using A* algorithm)
 	 * return list of segments
 	 */
-	public List<RouteSegmentResult> searchRoute(final RoutingContext ctx, RouteSegment start, RouteSegment end, boolean leftSideNavigation) throws IOException {
+	public List<RouteSegmentResult> searchRouteInternal(final RoutingContext ctx, RouteSegment start, RouteSegment end, boolean leftSideNavigation) throws IOException {
 		// measure time
 		ctx.timeToLoad = 0;
 		ctx.visitedSegments = 0;
@@ -316,14 +391,10 @@ public class BinaryRoutePlanner {
 			}
 		}
 		println("Result is found");
+		printDebugMemoryInformation(ctx, graphDirectSegments, graphReverseSegments, visitedDirectSegments, visitedOppositeSegments);
 		
 		// 4. Route is found : collect all segments and prepare result
 		List<RouteSegmentResult> resultPrepared = prepareResult(ctx, start, end, leftSideNavigation);
-		printDebugMemoryInformation(ctx, graphDirectSegments, graphReverseSegments, visitedDirectSegments, visitedOppositeSegments);
-		Object[] vls = ctx.tiles.values();
-		for(Object tl : vls) {
-			ctx.unloadTile((RoutingTile) tl, false);
-		}
 		return resultPrepared;
 	}
 	
@@ -725,8 +796,8 @@ public class BinaryRoutePlanner {
 						ctx.finalReverseEndSegment = next.segmentStart;
 						ctx.finalReverseRoute = opposite;
 					}
+					return true;
 				}
-				return true;
 			}
 			// road.id could be equal on roundabout, but we should accept them
 			boolean alreadyVisited = visitedSegments.contains(nts);
@@ -886,6 +957,11 @@ public class BinaryRoutePlanner {
 			
 		}
 		addTurnInfo(leftside, result);
+		return result;
+	}
+
+
+	private void printResults(RoutingContext ctx, RouteSegment start, RouteSegment end, List<RouteSegmentResult> result) {
 		float completeTime = 0;
 		float completeDistance = 0;
 		for(RouteSegmentResult r : result) {
@@ -934,7 +1010,6 @@ public class BinaryRoutePlanner {
 			}
 		}
 		println("</test>");
-		return result;
 	}
 
 
@@ -1014,8 +1089,15 @@ public class BinaryRoutePlanner {
 		}
 		TurnType t = null;
 		if (prev != null) {
+			boolean noAttachedRoads = rr.getAttachedRoutes(rr.getStartPointIndex()).size() == 0;
 			// add description about turn
 			double mpi = MapUtils.degreesDiff(prev.getBearingEnd(), rr.getBearingBegin());
+			if(noAttachedRoads){
+				// TODO VICTOR : look at the comment inside direction route
+//				double begin = rr.getObject().directionRoute(rr.getStartPointIndex(), rr.getStartPointIndex() < 
+//						rr.getEndPointIndex(), 25);
+//				mpi = MapUtils.degreesDiff(prev.getBearingEnd(), begin);
+			}
 			if (mpi >= TURN_DEGREE_MIN) {
 				if (mpi < 60) {
 					t = TurnType.valueOf(TurnType.TSLL, leftSide);
