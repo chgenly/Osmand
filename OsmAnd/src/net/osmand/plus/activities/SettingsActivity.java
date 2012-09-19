@@ -52,6 +52,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -253,11 +254,11 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 
 	@Override
     public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-//    	CustomTitleBar titleBar = new CustomTitleBar(this, R.string.settings_activity, R.drawable.tab_settings_screen_icon);
+    	CustomTitleBar titleBar = new CustomTitleBar(this, R.string.settings_activity, R.drawable.tab_settings_screen_icon);
     	setTheme(R.style.CustomTitleTheme_Preference);
+		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.settings_pref);
-//		titleBar.afterSetContentView();
+		titleBar.afterSetContentView();
 		if (true) return;
 		
 		
@@ -638,7 +639,6 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 
 	@Override
 	public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-		if (true)return false;
 		// customize the sub-preference title according the selected profile
 		String title = "";
 		if (preference.getKey() != null && preference instanceof PreferenceScreen
@@ -689,6 +689,34 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 			title = scr.getTitle().toString();
 			scr.getDialog().setTitle("   " + title);
 		}
+//		if (preference instanceof PreferenceScreen) {
+//			final PreferenceScreen scr = (PreferenceScreen) preference;
+//			CustomTitleBarView titleBar = new CustomTitleBarView(title, R.drawable.tab_settings_screen_icon, null) {
+//				@Override
+//				public void backPressed() {
+//					scr.getDialog().dismiss();
+//				}
+//			};
+//			View dv = scr.getDialog().getWindow().getDecorView();
+//			ListView ls = (ListView) dv.findViewById(android.R.id.list);
+//			if (ls != null) {
+//				View titleView = getLayoutInflater().inflate(titleBar.getTitleBarLayout(), null);
+//				ls.setAd
+//				ls.addHeaderView(titleView);
+//			}
+//			
+//
+////			View titleView = getLayoutInflater().inflate(titleBar.getTitleBarLayout(), null);
+////			titleBar.init(titleView);
+////			// View decorView = scr.getDialog().getWindow().getDecorView();
+////			// LinearLayout ll = new LinearLayout(titleView.getContext());
+////			// scr.getDialog().getWindow().setContentView(ll);
+////			View dv = scr.getDialog().getWindow().getDecorView();
+////			ListView ls = (ListView) dv.findViewById(android.R.id.list);
+////			if (ls != null) {
+////				ls.addFooterView(titleView);
+////			}
+//		}
 		if (preference instanceof PreferenceScreen) {
 			final PreferenceScreen scr = (PreferenceScreen) preference;
 			CustomTitleBarView titleBar = new CustomTitleBarView(title, R.drawable.tab_settings_screen_icon, null) {
