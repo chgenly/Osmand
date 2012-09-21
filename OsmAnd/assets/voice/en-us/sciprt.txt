@@ -27,6 +27,8 @@ Follow the course of the road for 10 miles.
 You have reached your destination.
 Turn right, then left.
 
+two tenths of a mile
+
 first
 second
 third

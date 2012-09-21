@@ -1,0 +1,259 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="osmanddirections_data" version="1.3.0" audacityversion="2.0.2" sel0="34.0998939831" sel1="34.3511797420" vpos="0" h="33.4550197564" zoom="1440.5909890622" rate="44100.0">
+	<tags/>
+	<wavetrack name="osmanddirections" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="8507816">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e4c.au" len="262144" min="-0.000255" max="0.000205" rms="0.000006"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e00003d3.au" len="262144" min="-0.384077" max="0.340841" rms="0.033063"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00008f7.au" len="262144" min="-0.235465" max="0.287814" rms="0.034173"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e000028d.au" len="262144" min="-0.281538" max="0.334595" rms="0.028312"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="e0000b3c.au" len="178969" min="-0.264715" max="0.307167" rms="0.038312"/>
+				</waveblock>
+				<waveblock start="1227545">
+					<simpleblockfile filename="e0000441.au" len="210010" min="-0.578304" max="0.633155" rms="0.055694"/>
+				</waveblock>
+				<waveblock start="1437555">
+					<simpleblockfile filename="e00008c8.au" len="262144" min="-0.376816" max="0.610838" rms="0.043848"/>
+				</waveblock>
+				<waveblock start="1699699">
+					<simpleblockfile filename="e0000a99.au" len="262144" min="-0.512648" max="0.891251" rms="0.053361"/>
+				</waveblock>
+				<waveblock start="1961843">
+					<simpleblockfile filename="e0000019.au" len="262144" min="-0.330254" max="0.400379" rms="0.038088"/>
+				</waveblock>
+				<waveblock start="2223987">
+					<simpleblockfile filename="e000068e.au" len="262144" min="-0.765327" max="0.891251" rms="0.106952"/>
+				</waveblock>
+				<waveblock start="2486131">
+					<simpleblockfile filename="e0000fff.au" len="262144" min="-0.586483" max="0.653728" rms="0.060643"/>
+				</waveblock>
+				<waveblock start="2748275">
+					<simpleblockfile filename="e0000168.au" len="262144" min="-0.564114" max="0.669718" rms="0.062589"/>
+				</waveblock>
+				<waveblock start="3010419">
+					<simpleblockfile filename="e0000805.au" len="262144" min="-0.665338" max="0.685076" rms="0.064729"/>
+				</waveblock>
+				<waveblock start="3272563">
+					<simpleblockfile filename="e0000a85.au" len="262144" min="-0.467014" max="0.512115" rms="0.055031"/>
+				</waveblock>
+				<waveblock start="3534707">
+					<simpleblockfile filename="e00009c3.au" len="262144" min="-0.891251" max="0.854572" rms="0.089289"/>
+				</waveblock>
+				<waveblock start="3796851">
+					<simpleblockfile filename="e0000c26.au" len="262144" min="-0.447356" max="0.458354" rms="0.062101"/>
+				</waveblock>
+				<waveblock start="4058995">
+					<simpleblockfile filename="e0000397.au" len="262144" min="-0.579826" max="0.580844" rms="0.047976"/>
+				</waveblock>
+				<waveblock start="4321139">
+					<simpleblockfile filename="e0000fba.au" len="262144" min="-0.362194" max="0.41702" rms="0.025207"/>
+				</waveblock>
+				<waveblock start="4583283">
+					<simpleblockfile filename="e00003ae.au" len="262144" min="-0.539437" max="0.601458" rms="0.061113"/>
+				</waveblock>
+				<waveblock start="4845427">
+					<simpleblockfile filename="e0000849.au" len="262144" min="-0.470493" max="0.457938" rms="0.053351"/>
+				</waveblock>
+				<waveblock start="5107571">
+					<simpleblockfile filename="e00003dd.au" len="262144" min="-0.470492" max="0.495609" rms="0.04362"/>
+				</waveblock>
+				<waveblock start="5369715">
+					<simpleblockfile filename="e00000dc.au" len="231870" min="-0.35302" max="0.435573" rms="0.036395"/>
+				</waveblock>
+				<waveblock start="5601585">
+					<simpleblockfile filename="e0000f32.au" len="262144" min="-0.326621" max="0.377547" rms="0.037915"/>
+				</waveblock>
+				<waveblock start="5863729">
+					<simpleblockfile filename="e00002ea.au" len="262144" min="-0.413843" max="0.439715" rms="0.039734"/>
+				</waveblock>
+				<waveblock start="6125873">
+					<simpleblockfile filename="e0000fde.au" len="262144" min="-0.288628" max="0.322769" rms="0.038991"/>
+				</waveblock>
+				<waveblock start="6388017">
+					<simpleblockfile filename="e000074e.au" len="262144" min="-0.266731" max="0.258794" rms="0.03283"/>
+				</waveblock>
+				<waveblock start="6650161">
+					<simpleblockfile filename="e0000bdf.au" len="262144" min="-0.39526" max="0.476079" rms="0.033578"/>
+				</waveblock>
+				<waveblock start="6912305">
+					<simpleblockfile filename="e0000c47.au" len="262144" min="-0.323759" max="0.366196" rms="0.036763"/>
+				</waveblock>
+				<waveblock start="7174449">
+					<simpleblockfile filename="e0000eec.au" len="157567" min="-0.324913" max="0.355352" rms="0.034132"/>
+				</waveblock>
+				<waveblock start="7332016">
+					<simpleblockfile filename="e000007e.au" len="191271" min="-0.288137" max="0.292633" rms="0.021815"/>
+				</waveblock>
+				<waveblock start="7523287">
+					<simpleblockfile filename="e000099a.au" len="190159" min="-0.48198" max="0.475234" rms="0.063849"/>
+				</waveblock>
+				<waveblock start="7713446">
+					<simpleblockfile filename="e00006ba.au" len="190159" min="-0.377451" max="0.437462" rms="0.051456"/>
+				</waveblock>
+				<waveblock start="7903605">
+					<simpleblockfile filename="e0000982.au" len="262144" min="-0.456405" max="0.465941" rms="0.043676"/>
+				</waveblock>
+				<waveblock start="8165749">
+					<simpleblockfile filename="e0000f15.au" len="171033" min="-0.469607" max="0.540459" rms="0.043377"/>
+				</waveblock>
+				<waveblock start="8336782">
+					<simpleblockfile filename="e0000ab7.au" len="171034" min="-0.255569" max="0.291857" rms="0.038515"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="140" height="450" minimized="0" isSelected="1">
+		<label t="6.50076300" t1="7.41426700" title="turn_left"/>
+		<label t="6.50737500" t1="6.81057800" title="turn"/>
+		<label t="6.80816100" t1="7.41335300" title="left"/>
+		<label t="8.19376600" t1="9.25347300" title="sharply_left"/>
+		<label t="11.94411800" t1="12.88199300" title="x_turn_left"/>
+		<label t="13.24978700" t1="14.73935400" title="x_turn_sharply_left"/>
+		<label t="15.50482600" t1="16.59211800" title="slightly_left"/>
+		<label t="17.04726300" t1="17.87020200" title="keep_left"/>
+		<label t="18.65636300" t1="19.46321100" title="turn_right"/>
+		<label t="19.00346800" t1="19.46321100" title="right"/>
+		<label t="20.63325700" t1="21.72744500" title="x_turn_right"/>
+		<label t="22.06305700" t1="23.32275200" title="turn_sharply_right"/>
+		<label t="22.39866900" t1="23.31355700" title="sharply_right"/>
+		<label t="24.36636800" t1="25.59847900" title="turn_slightly_right"/>
+		<label t="24.73646100" t1="25.59847900" title="slightly_right"/>
+		<label t="26.35705400" t1="27.15470800" title="keep_right"/>
+		<label t="27.43234512" t1="28.01759514" title="x_keep_right"/>
+		<label t="28.83089746" t1="30.05430961" title="x_prepare_to_turn"/>
+		<label t="31.64179800" t1="32.06520364" title="x_prepare_to"/>
+		<label t="31.64179800" t1="34.03705800" title="x_prepare_to_turn_right_after_two_miles"/>
+		<label t="32.71529700" t1="33.03941600" title="after"/>
+		<label t="33.26437100" t1="34.05085000" title="miles"/>
+		<label t="34.09989398" t1="34.35117974" title="silence_250"/>
+		<label t="34.09989398" t1="34.30050609" title="silence_200"/>
+		<label t="34.09989398" t1="34.20054712" title="silence_100"/>
+		<label t="34.50369700" t1="37.28973800" title="x_turn_sharply_left_after_three_miles"/>
+		<label t="38.03682000" t1="38.79309700" title="the_trip_is"/>
+		<label t="38.03682000" t1="39.90337600" title="x_the_trip_is_ten_miles"/>
+		<label t="40.48724900" t1="43.68935800" title="x_after_about_four_miles_turn_slightly_left"/>
+		<label t="42.27345518" t1="43.70606113" title="turn_slightly_left"/>
+		<label t="44.27782900" t1="45.63407000" title="route_recalculated"/>
+		<label t="44.27782900" t1="47.49143100" title="x_route_recalculated_distance_five_miles"/>
+		<label t="49.90640172" t1="51.54672266" title="x_GPS_signal_lost"/>
+		<label t="53.36694400" t1="56.77363800" title="x_dear_god_the_gps_signal_has_been_lost"/>
+		<label t="58.36434800" t1="60.11137100" title="gps_signal_lost"/>
+		<label t="60.87914100" t1="61.92275700" title="go_straight_ahead"/>
+		<label t="62.60053162" t1="63.04508840" title="prepare_to"/>
+		<label t="62.62156600" t1="65.38462000" title="x_prepare_to_make_a_u_turn_after_six_miles"/>
+		<label t="62.66674220" t1="64.33461836" title="prepare_to_make_a_u_turn_after"/>
+		<label t="63.92896835" t1="64.29187121" title="after"/>
+		<label t="65.97871600" t1="68.35159000" title="x_after_seven_miles_make_a_u_turn"/>
+		<label t="67.43705720" t1="68.41760444" title="make_a_u_turn"/>
+		<label t="69.01214700" t1="71.30164900" title="when_possible_please_make_a_u_turn"/>
+		<label t="71.94938000" t1="74.93150500" title="x_prepare_to_enter_a_roundabout_after_eight_miles"/>
+		<label t="72.01504622" t1="74.08333878" title="prepare_to_enter_a_roundabout_after"/>
+		<label t="75.45738500" t1="79.55556563" title="x_after_nine_miles_enter_the_roundabout_and_take_the_first_exit"/>
+		<label t="77.08173241" t1="78.68970376" title="enter_the_roundabout_and_take_the"/>
+		<label t="78.31451044" t1="78.56043547" title="take"/>
+		<label t="78.34310227" t1="78.68970376" title="take_the"/>
+		<label t="80.19427467" t1="81.50072498" title="x_take_the_second_exit"/>
+		<label t="81.08320828" t1="81.50072498" title="exit"/>
+		<label t="82.16120819" t1="83.11927175" title="go_straight_ahead"/>
+		<label t="83.63459381" t1="85.18451966" title="follow_the_course_of_the_road_for"/>
+		<label t="83.63459381" t1="86.16765580" title="x_follow_the_course_of_the_road_for_ten_miles"/>
+		<label t="86.49426837" t1="88.22894406" title="and_arrive_at_your_destination"/>
+		<label t="88.88216921" t1="90.72571576" title="you_have_reached_your_destination"/>
+		<label t="91.36442480" t1="93.20797134" title="x_turn_right_then_left"/>
+		<label t="92.33186818" t1="92.62316549" title="then"/>
+		<label t="94.38377662" t1="96.24909733" title="x_turn_right_then_left"/>
+		<label t="98.88377212" t1="99.50070698" title="x_first"/>
+		<label t="99.60231979" t1="100.14667408" title="x_second"/>
+		<label t="105.05141315" t1="105.53565547" title="x_first"/>
+		<label t="105.70679332" t1="106.19881464" title="x_second"/>
+		<label t="106.61110128" t1="107.01366417" title="x_third"/>
+		<label t="107.26648145" t1="107.69821557" title="x_fourth"/>
+		<label t="108.20773962" t1="108.60057878" title="x_fifth"/>
+		<label t="108.93313074" t1="109.58851091" title="x_sixth"/>
+		<label t="112.50952284" t1="113.10656057" title="1st"/>
+		<label t="113.22324546" t1="113.79500146" title="2nd"/>
+		<label t="114.24229357" t1="114.69736467" title="3rd"/>
+		<label t="114.99102166" t1="115.52971694" title="4th"/>
+		<label t="115.94589307" t1="116.17342862" title="5th"/>
+		<label t="116.83464304" t1="117.44918350" title="6th"/>
+		<label t="117.86341488" t1="118.53629779" title="7th"/>
+		<label t="118.96414242" t1="119.51839568" title="8th"/>
+		<label t="119.89178735" t1="120.51994105" title="9th"/>
+		<label t="120.98084639" t1="121.53315491" title="10th"/>
+		<label t="121.93182831" t1="122.57748474" title="11th"/>
+		<label t="122.99949512" t1="123.61403558" title="12th"/>
+		<label t="124.32386871" t1="125.03759133" title="x_twelfth"/>
+		<label t="126.26083800" t1="126.96289213" title="14th"/>
+		<label t="127.43352122" t1="128.07723290" title="15th"/>
+		<label t="128.31060270" t1="129.03015956" title="16th"/>
+		<label t="129.27325310" t1="130.06476565" title="17th"/>
+		<label t="131.55444285" t1="132.15731482" title="x_zero"/>
+		<label t="136.58550667" t1="137.20977087" title="0"/>
+		<label t="137.53454384" t1="138.01295192" title="1"/>
+		<label t="138.55748144" t1="138.99699455" title="2"/>
+		<label t="139.42289443" t1="139.94603172" title="3"/>
+		<label t="140.28636267" t1="140.83089219" title="4"/>
+		<label t="141.18678113" t1="141.76048187" title="5"/>
+		<label t="141.92578548" t1="142.60644738" title="6"/>
+		<label t="142.79703271" t1="143.52436857" title="7"/>
+		<label t="143.67800369" t1="144.16613551" title="8"/>
+		<label t="144.40728430" t1="144.96348231" title="9"/>
+		<label t="145.43994564" t1="145.86390077" title="10"/>
+		<label t="146.35008784" t1="146.98018628" title="11"/>
+		<label t="147.22716932" t1="147.85726776" title="12"/>
+		<label t="149.15830437" t1="149.74950785" title="x_zero"/>
+		<label t="150.36335620" t1="150.97021423" title="x_one"/>
+		<label t="151.40368425" t1="152.40066529" title="x_two"/>
+		<label t="152.40066529" t1="153.07976832" title="x_three"/>
+		<label t="153.45544233" t1="154.17789236" title="x_four"/>
+		<label t="154.46687237" t1="155.27601641" title="x_five"/>
+		<label t="155.52164942" t1="156.40303846" title="x_six"/>
+		<label t="156.40303846" t1="157.22663149" title="x_seven"/>
+		<label t="157.54450950" t1="158.29585754" title="x_eight"/>
+		<label t="158.45479654" t1="159.42287958" title="x_nine"/>
+		<label t="159.61071659" t1="160.14532961" title="x_ten"/>
+		<label t="160.34761562" t1="161.12786165" title="x_eleven"/>
+		<label t="161.27235166" t1="162.02369969" title="x_twelve"/>
+		<label t="162.60398532" t1="163.18314231" title="13"/>
+		<label t="163.51794336" t1="164.23293356" title="14"/>
+		<label t="164.57624826" t1="165.20018543" title="15"/>
+		<label t="165.88830752" t1="166.70778480" title="17"/>
+		<label t="167.12125513" t1="167.80042118" title="18"/>
+		<label t="168.22732555" t1="169.03635413" title="19"/>
+		<label t="169.33936667" t1="169.93643573" title="20"/>
+		<label t="170.74143019" t1="171.24646083" title="30"/>
+		<label t="171.58499485" t1="172.05922679" title="40"/>
+		<label t="172.43393757" t1="172.95624833" title="50"/>
+		<label t="173.21412561" t1="173.90580492" title="60"/>
+		<label t="174.11013989" t1="174.81056080" title="70"/>
+		<label t="175.12525850" t1="175.58528534" title="80"/>
+		<label t="175.84644072" t1="176.42010839" title="90"/>
+		<label t="177.07026509" t1="177.85591663" title="x_500_hundred"/>
+		<label t="177.34453287" t1="177.83515532" title="hundred"/>
+		<label t="178.28097706" t1="179.53102624" title="x_6000"/>
+		<label t="178.86557174" t1="179.53102624" title="thousand"/>
+		<label t="180.58548206" t1="181.68255319" title="x_6000"/>
+		<label t="182.49224414" t1="184.10288443" title="x_alot_of_miles"/>
+		<label t="184.75631923" t1="186.17136616" title="x_alot_of_miles"/>
+		<label t="186.94281260" t1="187.57330069" title="x_one_meter"/>
+		<label t="187.14277676" t1="187.53396348" title="meter"/>
+		<label t="187.99180492" t1="188.94901041" title="x_12_meters"/>
+		<label t="188.35895223" t1="188.94901041" title="meters"/>
+		<label t="189.26698621" t1="190.25588001" title="x_one_kilometer"/>
+		<label t="189.58496200" t1="190.25588001" title="kilome"/>
+		<label t="191.34858034" t1="192.92097882" title="x_a_hundred_kilometers"/>
+		<label t="191.99218084" t1="192.87617541" title="kilometers"/>
+	</labeltrack>
+</project>
