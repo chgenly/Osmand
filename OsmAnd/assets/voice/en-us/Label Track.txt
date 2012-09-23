@@ -7,12 +7,9 @@
 15.504826	16.592118	slightly_left
 17.047263	17.870202	keep_left
 18.656363	19.463211	turn_right
-19.003468	19.463211	right
 20.633257	21.727445	x_turn_right
 22.063057	23.322752	turn_sharply_right
-22.398669	23.313557	sharply_right
 24.366368	25.598479	turn_slightly_right
-24.736461	25.598479	slightly_right
 26.357054	27.154708	keep_right
 27.432345	28.017595	x_keep_right
 28.830897	30.054310	x_prepare_to_turn
@@ -24,6 +21,7 @@
 34.099894	34.300506	silence_200
 34.099894	34.200547	silence_100
 34.503697	37.289738	x_turn_sharply_left_after_three_miles
+34.566149	35.925015	turn_sharply_left
 38.036820	38.793097	the_trip_is
 38.036820	39.903376	x_the_trip_is_ten_miles
 40.487249	43.689358	x_after_about_four_miles_turn_slightly_left
@@ -37,7 +35,7 @@
 62.600532	63.045088	prepare_to
 62.621566	65.384620	x_prepare_to_make_a_u_turn_after_six_miles
 62.666742	64.334618	prepare_to_make_a_u_turn_after
-63.928968	64.291871	after
+63.928968	64.291871	x_after
 65.978716	68.351590	x_after_seven_miles_make_a_u_turn
 67.437057	68.417604	make_a_u_turn
 69.012147	71.301649	when_possible_please_make_a_u_turn
@@ -49,7 +47,7 @@
 78.343102	78.689704	take_the
 80.194275	81.500725	x_take_the_second_exit
 81.083208	81.500725	exit
-82.161208	83.119272	go_straight_ahead
+82.161208	83.119272	x_go_straight_ahead
 83.634594	85.184520	follow_the_course_of_the_road_for
 83.634594	86.167656	x_follow_the_course_of_the_road_for_ten_miles
 86.494268	88.228944	and_arrive_at_your_destination

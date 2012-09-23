@@ -9,18 +9,18 @@ preamble - [].
 
 
 %% TURNS 
-turn('left', ['turn.ogg', 'left.ogg']).
-turn('left_sh', ['turn_sharply_left.ogg']).
-turn('left_sl', ['turn_slightly_left.ogg']).
-turn('right', ['turn.ogg', 'right.ogg']).
-turn('right_sh', ['turn_sharply_right.ogg']).
-turn('right_sl', ['turn_slightly_right.ogg']).
+turn('left',       ['turn_left.ogg']).
+turn('left_sh',    ['turn_sharply_left.ogg']).
+turn('left_sl',    ['turn_slightly_left.ogg']).
+turn('right',      ['turn_right.ogg']).
+turn('right_sh',   ['turn_sharply_right.ogg']).
+turn('right_sl',   ['turn_slightly_right.ogg']).
 turn('right_keep', ['keep_right.ogg']).
-turn('left_keep', ['keep_left.ogg']).
+turn('left_keep',  ['keep_left.ogg']).
 
-prepare_turn(Turn, Dist) == ['prepare_to.ogg', 'silence_250.ogg', M, 'silence_250.ogg', 'after.ogg', D] :- 
+prepare_turn(Turn, Dist) == ['prepare_to.ogg', 'silence_100.ogg', M, 'silence_100.ogg', 'after.ogg', D] :- 
 			distance(Dist) == D, turn(Turn, M).
-turn(Turn, Dist) == ['after.ogg', delay_250, D, delay_250, M] :- 
+turn(Turn, Dist) == ['after.ogg', 'silence_100.ogg', D, 'silence_100.ogg', M] :- 
 			distance(Dist) == D, turn(Turn, M).
 turn(Turn) == M :- turn(Turn, M).
 
@@ -30,14 +30,14 @@ prepare_make_ut(Dist) == ['prepare_to_make_a_u_turn_after.ogg', delay_300, D ] :
 prepare_roundabout(Dist) == ['prepare_to_enter_a_roundabout_after.ogg', delay_300, D] :- 
 		distance(Dist) == D.
 
-make_ut(Dist) == ['after.ogg', delay_300, D, delay_300, 'make_a_u_turn.ogg'] :- 
+make_ut(Dist) == ['after.ogg', 'slience_100.ogg', D, 'silence_10.ogg', 'make_a_u_turn.ogg'] :- 
 			distance(Dist) == D.
 make_ut == ['make_a_u_turn.ogg'].
 
-roundabout(Dist, _Angle, Exit) == ['after.ogg', delay_300, D, delay_300, 'enter_the_roundabout_and_take_the.ogg', delay_250, E, 'exit.ogg'] :- distance(Dist) == D, nth(Exit, E).
+roundabout(Dist, _Angle, Exit) == ['after.ogg', 'silence_100.ogg', D, 'silence_100.ogg', 'enter_the_roundabout_and_take_the.ogg', 'silence_100.ogg', E, 'exit.ogg'] :- distance(Dist) == D, nth(Exit, E).
 
 % Taking was used here instead of take.
-roundabout(_Angle, Exit) == ['take_the.ogg', delay_250,  E, 'exit.ogg'] :- nth(Exit, E).
+roundabout(_Angle, Exit) == ['take_the.ogg', 'silence_100.ogg',  E, 'exit.ogg'] :- nth(Exit, E).
 
 and_arrive_destination == ['and_arrive_at_your_destination.ogg']. 
 then == ['then.ogg', delay_350].
@@ -45,11 +45,11 @@ reached_destination == ['you_have_reached_your_destination.ogg'].
 bear_right == ['keep_right.ogg'].
 bear_left == ['keep_left.ogg'].
 route_recalc(_Dist) == ['route_recalculated.ogg'].	
-route_new_calc(Dist) == ['the_trip_is.ogg', delay_150, D] :- distance(Dist) == D. 
+route_new_calc(Dist) == ['the_trip_is.ogg', 'silence_100.ogg', D] :- distance(Dist) == D. 
 
 location_lost == ['gps_signal_lost.ogg'].
 
-go_ahead(Dist) == ['follow_the_course_of_the_road_for.ogg', delay_250,  D]:- distance(Dist) == D.
+go_ahead(Dist) == ['follow_the_course_of_the_road_for.ogg', 'silence_100.ogg',  D]:- distance(Dist) == D.
 go_ahead == ['go_straight_ahead.ogg'].
 
 %% 
