@@ -1,8 +1,5 @@
 :- op('==', xfy, 500).
 version(0).
-:- write("!!!: this is a test"),nl .
-:- bound(div), write("!!!: div is bound"), nl.
-:- X is div(5, 2), write("!!!: div(5,2)="), write(X), nl.
 
 % before each announcement (beep)
 preamble - [].
@@ -115,18 +112,6 @@ distance_km(Dist) == ['about.ogg', X, 'kilometers.ogg'] :- Dist < 10000, D is ro
 distance_km(Dist) == [ X, 'kilometers.ogg'] :- D is round(Dist/1000.0), num(D) == X, !.
 
 %%% distance measure
-%distance_mi(Dist) == [X1, X2, X3, X4, X5, X6, X7, X8] :-  
-%   B = 161,
-%  (num_atom(Dist, X1); X1="fail num_atom"), 
-%  (T2 is Dist*10, num_atom(T2, X2); X2="mul failed"),
-%  (T3 is Dist*10+B*10/2, num_atom(T3, X3); X3 ="left failed"),
-%  (T4 is div(Dist*10+B*10/2, B*10), num_atom(T4, X4); A="div failed"),
-%  (bound(div), X5="div bound"; X5="div not bound"),
-%  (bound(round), X6="round bound"; X6="round not bound"),
-%  (bound(floor), X7="floor bound"; X7="floor not bound"),
-%  (T8 is round(105.6), num_atom(T8, X8); X8="round failed")
-%.
-
 distance_mi(Dist) == [ X, 'feet.ogg'] :- Dist < 160, D is round(2*Dist/100.0/0.3048)*50, num(D) == X, !.
 distance_mi(Dist) == [ '1.ogg', 'tenth_of_a_mile.ogg'] :- Dist < 241, !.
 distance_mi(Dist) == [ X, 'tenths_of_a_mile.ogg'] :- Dist < 1529, rounddiv(Dist, 161, D, E), (nonvar(D), num(D) == X; X=E), !.
@@ -135,7 +120,6 @@ distance_mi(Dist) == ['about.ogg', X, 'miles.ogg'] :- Dist < 16093, D is round(D
 distance_mi(Dist) == [ X, 'miles.ogg'] :- D is round(Dist/1609.0), num(D) == X, !.
 
 rounddiv(A, B, C, E) :- C is div(A*10+B*10/2, B*10);  E="divide_failed.ogg".
-%rounddiv(A, B, C, E) :- (D is (10*A+5)/(B*10), (C is round(D); E="round_failed.ogg"); E="divide_failed.ogg").
 
 %% resolve command main method
 %% if you are familar with Prolog you can input specific to the whole mechanism,
