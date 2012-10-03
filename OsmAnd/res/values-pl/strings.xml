@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources><string name="tip_select_destination_point">Wybierz punkt docelowy</string>
-  <string name="tip_select_destination_point_t">\tMożesz wybrać punk docelowy bezpośrednio na mapie (menu kontekstowe -&gt; \'Nawiguj do punktu\'), podczas wyszukiwania lub przez naciśnięcie i długie przytrzymanie na wpisie w swojej \'Liście ulubionych punktów\'.\n\tPunkt docelowy jest oznaczony pomarańczowym dyskiem na mapie i OsmAnd wyświetla odległość oraz kierunek do niego (pomarańczowy trójkąt).</string>
+  <string name="tip_select_destination_point_t">"\tMożesz wybrać punk docelowy bezpośrednio na mapie (menu kontekstowe -&gt; \'Nawiguj do punktu\'), podczas wyszukiwania lub przez naciśnięcie i długie przytrzymanie na wpisie w swojej \'Liście ulubionych punktów\'.\n\tPunkt docelowy jest oznaczony pomarańczowym dyskiem na mapie i OsmAnd wyświetla odległość oraz kierunek do niego (pomarańczowy trójkąt). "</string>
   <string name="tip_recent_changes_0_6_9_t">"Zmiany w 0.6.9: \n\t- poprawiono renderowanie map offline \n\t- szybkie renderowanie natywne (wersja eksperymentalna - może nie działać na niektórych urządzeniach) \n\t- poprawki w interfejsie \n\t- dodano wyświetlanie informacji o wysokości (altitude) \n\t- nowe tłumaczenia (polskie, wietnamskie) \n\t- inne, mniejsze poprawki "</string>
   <string name="use_transparent_map_theme_descr">Użyj przezroczystych kontrolek mapy</string>
   <string name="use_transparent_map_theme">Przezroczysty styl</string>
@@ -154,7 +154,10 @@
   <string name="tip_location_sharing_t">\tMożesz podzielić się swoją pozycją GPS z rodziną lub znajomymi. \n\tAby to zrobić:: \n\tWybierz z menu kontekstowego mapy \'Opcje punktu\' -&gt; \'Udostępnij pozycję GPS\'. \n\tNastępnie wybierz sposób udostępnienia. Do wyboru jest e-mail, SMS lub zwykłe skopiowanie koordynat do schowka.
 </string>
   <string name="tip_favorites">Ulubione punkty</string>
-  <string name="tip_favorites_t">\tCzęsto używane punkty mogą zostać zapisane jako ulubione. \n\tAby zapisać punkt jako ulubiony przejdź do menu kontekstowego, wybierz \'Opcje punktu\' -&gt; \'Dodaj do ulubionych\' i wprowadź jego nazwę. Po zapisaniu, punkt będzie można znaleźć w głównym menu -&gt; \'Ulubione\'. \n\tDłuższe naciśnięcie pozycji w \'Ulubionych\' pokaże opcje dotyczące tego punktu. \n\tAby wyświetlić wszystkie ulubione punkty bezpośrednio na mapie, włącz warstwę \'Ulubione\' w \'Zdefiniuj widok\'.</string>
+  <string name="tip_favorites_t">"\tCzęsto używane punkty mogą zostać zapisane jako ulubione.
+\n\tAby zapisać punkt jako ulubiony przejdź do menu kontekstowego, wybierz \'Opcje punktu\' -&gt; \'Dodaj do ulubionych\' i wprowadź jego nazwę. Po zapisaniu, punkt będzie można znaleźć w głównym menu -&gt; \'Ulubione\'.
+\n\tDłuższe naciśnięcie pozycji w \'Ulubionych\' pokaże opcje dotyczące tego punktu.
+\n\tAby wyświetlić wszystkie ulubione punkty bezpośrednio na mapie, włącz warstwę \'Ulubione\' w \'Zdefiniuj widok\'. "</string>
   <string name="error_doing_search">Wystąpił błąd podczas wyszukiwania offline</string>
   <string name="search_offline_geo_error">Nie można zinterpretować \'%s\'</string>
   <string name="search_osm_offline">Wyszukaj adres korzystając z map offline</string>
@@ -168,11 +171,11 @@
   <string name="tip_navigation">Nawigacja</string>
   <string name="tip_navigation_t">\tPrzed rozpoczęciem nawigacji musisz wybrać punkt docelowy. Potem naciśnij\'Menu\' -&gt; \'Nawigacja\' i wybierz rodzaj nawigacji.</string>
   <string name="tip_search">Wyszukiwanie</string>
-  <string name="tip_search_t">\tMożesz wyszukiwać miejsc bezpośrednio na mapie lub poprzez adres, jako POI lub punkt ulubiony.\n\tPrzyciśnięcie przycisku \'Szukaj\' w menu głównym otwiera okno wyszukiwania. Dla wszystkich wyników możesz wybrać jedną z dwóch opcji kontekstowych - \'Pokaż na mapie\' oraz \'Nawiguj do\'.</string>
+  <string name="tip_search_t">"\tMożesz wyszukiwać miejsc bezpośrednio na mapie lub poprzez adres, jako POI lub punkt ulubiony.\n\tPrzyciśnięcie przycisku \'Szukaj\' w menu głównym otwiera okno wyszukiwania. Dla wszystkich wyników możesz wybrać jedną z dwóch opcji kontekstowych - \'Pokaż na mapie\' oraz \'Nawiguj do\'. "</string>
   <string name="tip_map_context_menu">Menu kontekstowe mapy</string>
-  <string name="tip_map_context_menu_t">\tMenu kontekstowe mapy jest dostępne poprzez przyciśnięcie i przytrzymanie na mapie lub poprzez wciśnięcie przycisku na trackballu.\n\tStworzy to chmurkę zawierającą współrzędne danego punktu. Aby otworzyć menu kontekstowe mapy, przyciśnij go. (Albo przyciśnij i przytrzymaj na nim aby go schować.)\n\tMenu kontekstowe mapy zawiera wszystkie akcje związane z punktem (lokalizacją).</string>
+  <string name="tip_map_context_menu_t">"\tMenu kontekstowe mapy jest dostępne poprzez przyciśnięcie i przytrzymanie na mapie lub poprzez wciśnięcie przycisku na trackballu.\n\tStworzy to chmurkę zawierającą współrzędne danego punktu. Aby otworzyć menu kontekstowe mapy, przyciśnij go. (Albo przyciśnij i przytrzymaj na nim aby go schować.)\n\tMenu kontekstowe mapy zawiera wszystkie akcje związane z punktem (lokalizacją). "</string>
   <string name="tip_initial">Porady i sztuczki</string>
-  <string name="tip_initial_t">\tOsmAnd jest rozbudowanym programem do nawigacji satelitarnej posiadającym wiele funkcji.\n\tNiektóre sztuczki i kruczki są wyświetlane na ekranie w menu głównym.</string>
+  <string name="tip_initial_t">"\tOsmAnd jest rozbudowanym programem do nawigacji satelitarnej posiadającym wiele funkcji.\n\tNiektóre sztuczki i kruczki są wyświetlane na ekranie w menu głównym. "</string>
   <string name="next_button">Następny</string>
   <string name="previous_button">Poprzedni</string>
   <string name="unit_of_length_descr">Zmień jednostki długości i prędkości</string>
@@ -216,7 +219,7 @@
   <string name="indexing_address">Indeksowanie adresów…</string>
   <string name="indexing_map">Indeksowanie map…</string>
   <string name="indexing_poi">Indeksowanie POI…</string>
-  <string name="indexing_transport">Indeksowanie transportu pub...</string>
+  <string name="indexing_transport">Indeksowanie transportu pub…</string>
   <string name="input_output_error">Wystąpił błąd wejścia/wyjścia</string>
   <string name="km">km</string>
   <string name="km_h">km/h</string>
@@ -231,7 +234,7 @@
   <string name="poi_filter_namefinder">Online NameFinder</string>
   <string name="reading_cached_tiles">Wczytywanie zachowanych kafelków…</string>
   <string name="version_index_is_big_for_memory">Index\'\'{0}\'\' nie zmieścił się w pamięci</string>
-  <string name="version_index_is_not_supported">"Wersja indeksu \'\'{0}\'\' jest niewspierana. "</string>
+  <string name="version_index_is_not_supported">Wersja indeksu \'\'{0}\'\' jest niewspierana.</string>
   <string name="use_osmand_routing_service">Routing OsmAnd &gt;20km</string>
   <string name="use_osmand_routing_service_descr">Użycie routingu offline dla długich tras działa tylko dla tras &gt; 20 km (funkcjonalność eksperymentalna)</string>
   <string name="osmand_routing_experimental">Routing offline OsmAnd-a jest funkcją eksperymentalną i nie działa dobrze dla odległości większych niż 20km.\n\nUsługa routująca jest tymczasowo przełączana do CloudMade (online).</string>
@@ -455,7 +458,7 @@
   <string name="update_existing">Zamień</string>
   <string name="only_show">Tylko pokaż</string>
   <string name="follow">Prowadź</string>
-  <string name="recalculate_route_to_your_location">Wybierz rodzaj pojazdu (opcjonalnie) and guidance mode</string>
+  <string name="recalculate_route_to_your_location">Wybierz rodzaj pojazdu (opcjonalnie) oraz tryb naprowadzania:</string>
   <string name="mark_final_location_first">Najpierw wybierz cel podróży</string>
   <string name="get_directions">Nawigacja</string>
   <string name="show_gps_status">Pokaż status GPS</string>
@@ -676,16 +679,18 @@
   <string name="select_plugin_to_activate">Dotknij wtyczki aby ją aktywować lub dezaktywować. (Może być wymagane ponowne uruchomienie OsmAnd.)</string>
   <string name="prefs_plugins_descr">Wtyczki dostarczają możliwość ustawienia zaawansowanych ustawień oraz dodatkową funkcjonalność do aplikacji, taką jak zapisywanie ścieżek, kafelki map, tryb wyłączonego ekranu, ustawienia dostępności i inne.</string>
   <string name="prefs_plugins">Zarządzanie wtyczkami</string>
-  <string name="tip_recent_changes_0_8_0_t">"Zmiany w 0.8.0 : \n\t- *Obsługa wtyczek*\n\t - Większość funkcjonalności jest pogrupowana i może być aktywowana/dezaktywowana w Menadżerze Wtyczek. Możesz aktywować źródła map, ustawienia zapisu ścieżek oraz wiele innych wcześniej istniejących i nowych funkcjonalności.\n\t- *Obsługa nowego formatu danych offline*\n\t - Renderowanie map stało się szybsze i bardziej dokładne (problemy z linią brzegową i terenami zalanymi są w większości naprawione).\n\t - Musisz pobrać zupełnie nowe dane offline (stary format danych nie będzie już obsługiwany)\n\t- *Routing offline*\n\t - Routing offline został poprawiony\n\t- *Poprawki użyteczności oraz UI*\n\t - Poprawione w wielu kwestiach"</string>
+  <string name="tip_recent_changes_0_8_0_t">"Zmiany w 0.8.0 :
+\n\t- *Obsługa wtyczek*\n\t - Większość funkcjonalności jest pogrupowana i może być aktywowana/dezaktywowana w Menadżerze Wtyczek. Możesz aktywować źródła map, ustawienia zapisu ścieżek oraz wiele innych wcześniej istniejących i nowych funkcjonalności.\n\t- *Obsługa nowego formatu danych offline*\n\t - Renderowanie map stało się szybsze i bardziej dokładne (problemy z linią brzegową i terenami zalanymi są w większości naprawione).\n\t - Musisz pobrać zupełnie nowe dane offline (stary format danych nie będzie już obsługiwany)\n\t- *Routing offline*\n\t - Routing offline został poprawiony\n\t- *Poprawki użyteczności oraz UI*\n\t - Poprawione w wielu kwestiach "</string>
   <string name="osm_editing_plugin_description">Pokaż ustawienia do konfiguracji poprawiania danych OSM - zbieranie/modyfikowanie obiektów POI, otwieranie/komentowanie błędów OSM oraz dodawanie zapisanych ścieżek GPX (wymaga podania danych uwierzytelniających OSM).</string>
   <string name="vector_maps_may_display_faster_on_some_devices">Mapy wektorowe mogą wyświetlać się szybciej. Może nie działać dobrze na niektórych urządzeniach.</string>
   <string name="simulate_route_progression_manually">Simulate route progression manually</string>
   <string name="play_commands_of_currently_selected_voice">Odtwórz komendy w aktualnie wybranym głosie</string>
-  <string name="debugging_and_development">"Rozwój OsmAnd "</string>
+  <string name="debugging_and_development">Rozwój OsmAnd</string>
   <string name="native_rendering">Renderowanie natywne</string>
   <string name="animate_routing">Nawigacja animowana</string>
   <string name="test_voice_prompts">Przetestuj podpowiedzi głosowe</string>
-  <string name="tip_recent_changes_0_7_2_t">"Zmiany w 0.7.2 : \n\t- Natywne renderowanie dla wszystkich urządzeń\n\t- Edytowanie POI w trybie offline\n\t- Ułatwienia dostępu\n\t- Wiele poprawek"</string>
+  <string name="tip_recent_changes_0_7_2_t">"Zmiany w 0.7.2 :
+\n\t- Natywne renderowanie dla wszystkich urządzeń\n\t- Edytowanie POI w trybie offline\n\t- Ułatwienia dostępu\n\t- Wiele poprawek "</string>
   <string name="send_files_to_osm">Wysłać pliki GPX do OSM?</string>
   <string name="gpx_visibility_txt">Widoczność</string>
   <string name="gpx_tags_txt">Tagi</string>
@@ -758,8 +763,10 @@
   <string name="use_fluorescent_overlays_descr">Użyj odblaskowych kolorów do wyświetlania ścieżek i tras</string>
   <string name="offline_edition">Edycja w trybie offline</string>
   <string name="offline_edition_descr">Zawsze edytuj w trybie offline</string>
-  <string name="tip_recent_changes_0_7_1_t">"Zmiany w 0.7.1 : \n\t- Edycja POI w trybie offline\n\t- Opcja zapisywania ścieżki na bieżąco - cykliczne wysyłanie informacji o pozycji do usługi sieciowej (przeczytaj jak ustawić własną usługę sieciową w artykułach HowTo)\n\t- Pokazywanie aktualnie nagranego śladu na mapie\n\t- Wykrywanie kierunku poruszania: Nakazanie \'Zawróć\' podczas poruszania w przeciwnym kierunku lub po przeoczeniu zakrętu\n\t- Nowa podpowiedź głosowa - \'Trasa przeliczona\' \n\t- Optyczne wskazanie bliskości zakrętu w odległości nie większej niż 100m prze zmianę koloru strzałki\n\t- Zdezaktywowane pliki indeksów są teraz pokazywane w ekranie pobrań w kolorze ciemno zielonym i ciemno niebieskim\n\t- Inne zmiany"</string>
-  <string name="local_openstreetmap_uploading">Wysyłam...</string>
+  <string name="tip_recent_changes_0_7_1_t">"Zmiany w 0.7.1 :
+\n\t- Edycja POI w trybie offline\n\t- Opcja zapisywania ścieżki na bieżąco - cykliczne wysyłanie informacji o pozycji do usługi sieciowej (przeczytaj jak ustawić własną usługę sieciową w artykułach HowTo)\n\t- Pokazywanie aktualnie nagranego śladu na mapie\n\t- Wykrywanie kierunku poruszania: Nakazanie \'Zawróć\' podczas poruszania w przeciwnym kierunku lub po przeoczeniu zakrętu\n\t- Nowa podpowiedź głosowa - \'Trasa przeliczona\'
+\n\t- Optyczne wskazanie bliskości zakrętu w odległości nie większej niż 100m prze zmianę koloru strzałki\n\t- Zdezaktywowane pliki indeksów są teraz pokazywane w ekranie pobrań w kolorze ciemno zielonym i ciemno niebieskim\n\t- Inne zmiany "</string>
+  <string name="local_openstreetmap_uploading">Wysyłam…</string>
   <string name="local_openstreetmap_were_uploaded">{0} POI/Bugs zostało wysłanych</string>
   <string name="local_openstreetmap_uploadall">Wyślij wszystkie</string>
   <string name="local_openstreetmap_show">Pokaż na mapie</string>
@@ -776,7 +783,8 @@
   <string name="live_monitoring_url">Adres sieciowy śledzenia na bierząco</string>
   <string name="gpx_monitoring_disabled_warn">Proszę włączyć ustawienia \'Zapisuj ślad GPX\'</string>
   <string name="show_current_gpx_title">Pokaż aktualną ścieżkę</string>
-  <string name="tip_recent_changes_0_7_0_t">"Changes in 0.7.0 : \n\t- Dane wikipedii z artykułami w trybie offline\n\t- Uaktualnione mapy\n\t- Inne niewielkie funkcjonalności"</string>
+  <string name="tip_recent_changes_0_7_0_t">"Changes in 0.7.0 :
+\n\t- Dane wikipedii z artykułami w trybie offline\n\t- Uaktualnione mapy\n\t- Inne niewielkie funkcjonalności "</string>
   <string name="free_version_message">Ta darmowa wersja OsmAnd jest ograniczona do %1$s pobrań %2$s oraz nie obsługuje artykułów Wikipedii w trybie offline.</string>
   <string name="free_version_title">Wersja darmowa</string>
   <string name="poi_context_menu_showdescription">Pokaż opis POI</string>
@@ -812,7 +820,7 @@
   <string name="create_poi_link_to_osm_doc">" <u>Online OSM</u> map classification with images"</string>
   <string name="local_index_routing_data">Dane trasowania</string>
   <string name="navigate_point_format">Format :</string>
-  <string name="poi_search_desc">"Wyszukaj POI "</string>
+  <string name="poi_search_desc">Wyszukaj POI</string>
   <string name="address_search_desc">Wyszukiwanie adresu</string>
   <string name="navpoint_search_desc">Nawiguj do punktu</string>
   <string name="transport_search_desc">Wyszukaj transport</string>
@@ -831,7 +839,13 @@
   <string name="route_kr">Trzymaj się prawej strony</string>
   <string name="save_route_as_gpx">Zapisz ścieżkę jako plik GPX</string>
   <string name="asap">ASAP</string>
-  <string name="tip_recent_changes_0_8_1_t">"Zmiany w 0.8.1 : \n\t* Mądre i szybkie przeliczanie trasy \n\t* Bardziej dokładne trasy (nieco wolniejsze) \n\t* Direction by lanes \n\t* Informacje na temat wyboi, radarów, ograniczeń prędkości \n\t* Poprawione wskazówki głosowe na autostradzie \n\t* Wtyczka parkingowa (\"Gdzie zaparkowałem samochód?\")\n\t* Włączenie/wyłączenie widgeta logowania"</string>
+  <string name="tip_recent_changes_0_8_1_t">"Zmiany w 0.8.1 :
+\n\t* Mądre i szybkie przeliczanie trasy
+\n\t* Bardziej dokładne trasy (nieco wolniejsze)
+\n\t* Direction by lanes
+\n\t* Informacje na temat wyboi, radarów, ograniczeń prędkości
+\n\t* Poprawione wskazówki głosowe na autostradzie
+\n\t* Wtyczka parkingowa (\"Gdzie zaparkowałem samochód?\")\n\t* Włączenie/wyłączenie widgeta logowania "</string>
   <string name="gpxup_public">Publiczny</string>
   <string name="gpxup_identifiable">Identifiable</string>
   <string name="gpxup_trackable">Trackable</string>
@@ -843,11 +857,11 @@
   <string name="osmand_parking_delete_confirm">Chcesz usunąć lokalizację zaparkowanego samochodu?</string>
   <string name="osmand_parking_delete">Usuń znacznik parkowania</string>
   <string name="osmand_parking_choose_type">Wybierz typ parkingu</string>
-  <string name="osmand_parking_lim_text">Time-limited</string>
-  <string name="osmand_parking_no_lim_text">Time-unlimited</string>
+  <string name="osmand_parking_lim_text">Ograniczony czasowo</string>
+  <string name="osmand_parking_no_lim_text">Nieograniczony czasowo</string>
   <string name="osmand_parking_add_event">Dodaj powiadomienie do aplikacji kalendarza</string>
-  <string name="osmand_parking_time_limit">Time-limited parking</string>
-  <string name="osmand_parking_time_no_limit">Time-unlimited parking</string>
+  <string name="osmand_parking_time_limit">Parking ograniczony czasowo</string>
+  <string name="osmand_parking_time_no_limit">Parking nielimitowany czasowo</string>
   <string name="osmand_parking_position_description">Pozycja Twojego zaparkowanego samochodu. %1$s</string>
   <string name="osmand_parking_position_description_add">Odebrać samochód o:</string>
   <string name="osmand_parking_pm">PM</string>
@@ -864,10 +878,10 @@
   <string name="global_app_allocated_memory">Użyta pamięć</string>
   <string name="native_app_allocated_memory_descr">Zużycie pamięci natywnej przez aplikację %1$s MB (dalvik %2$s MB, inna %3$s MB). Proportional memory %4$s MB (limit Androida %5$s MB, dalvika %6$s MB).</string>
   <string name="native_app_allocated_memory">Zużycie pamięci natywnej</string>
-  <string name="select_animate_speedup">Select animate route acceleration</string>
+  <string name="select_animate_speedup">Wybierz przyspieszenie animacji trasy</string>
   <string name="osmand_parking_hours">Godziny</string>
   <string name="osmand_parking_minutes">Minuty</string>
-  <string name="osmand_parking_position_description_add_time">The car was parked at:</string>
+  <string name="osmand_parking_position_description_add_time">Samochód został zaparkowany w:</string>
   <string name="use_compass_navigation_descr">Użyj kompasu w nawigacji kiedy kierunek nie jest wykryty</string>
   <string name="use_compass_navigation">Użyj kompasu</string>
   <string name="route_updated_loc_found">Trasa będzie przeliczona kiedy lokalizacja zostanie odnaleziona</string>
@@ -897,16 +911,16 @@
   <string name="map_widget_speed">Prędkość</string>
   <string name="map_widget_distance">Cel</string>
   <string name="map_widget_altitude">Wysokość</string>
-  <string name="map_widget_time">Time to go</string>
+  <string name="map_widget_time">Czas do osiągnięcia celu</string>
   <string name="map_widget_next_turn">Następny zakręt</string>
   <string name="map_widget_next_turn_small">Następny zakręt (mały)</string>
   <string name="map_widget_next_next_turn">Drugi zakręt</string>
-  <string name="map_widget_mini_route">Mini route map</string>
+  <string name="map_widget_mini_route">Mała mapa trasy</string>
   <string name="bg_service_screen_lock">Zablokuj/odblokuj ekran</string>
   <string name="bg_service_screen_lock_toast">Ekran zablokowany</string>
-  <string name="bg_service_interval">Set wake-up interval:</string>
-  <string name="screen_is_locked">To unlock screen press lock icon</string>
-  <string name="bg_service_screen_unlock">Unlock screen</string>
+  <string name="bg_service_interval">Ustaw częstość wybudzania:</string>
+  <string name="screen_is_locked">Aby odblokować naciśnij ikonę kłódki</string>
+  <string name="bg_service_screen_unlock">Odblokuj ekran</string>
   <string name="bg_service_sleep_mode_off">Disable Sleep mode</string>
   <string name="bg_service_sleep_mode_on">Enable Sleep mode</string>
   <string name="filterpoi_activity">Stwórz filtr POI</string>
@@ -962,4 +976,50 @@
 <string name="map_widget_day_night">Mapa dzień/noc</string>
 <string name="map_widget_vector_attributes">Atrybuty renderowania:</string>
 <string name="show_lanes">Pokazuj alejki</string>
+<string name="tip_recent_changes_0_8_4_t">"Zmiany w 0.8.4 : "</string>
+    <string name="gps_not_available">Proszę włączyć odbiornik GPS</string>
+    <string name="map_widget_monitoring_services">Usługi monitorowania</string>
+	<string name="no_route">Brak trasy</string>
+	<string name="delete_target_point">Usuń punkt docelowy</string>
+	<string name="target_point">Punkt docelowy %1$s</string>
+    <string name="intermediate_point">Punkt drogi %1$s</string>
+    <string name="context_menu_item_last_intermediate_point">Wybierz ostatni punkt docelowy</string>
+    <string name="context_menu_item_first_intermediate_point">Wybierz pierwszy punkt docelowy</string>
+    <string name="add_as_last_destination_point">Dodaj jako ostatni punkt drogi</string>
+    <string name="add_as_first_destination_point">Dodaj jako pierwszy punkt drogi</string>
+    <string name="replace_destination_point">Zamień punkt docelowy</string>
+    <string name="new_destination_point_dialog">Już wybrałeś punkt docelowy.</string>
+    <string name="target_points">Cele</string>
+    <string name="intermediate_point_too_far">Punkt drogi %1$s jest zbyt daleko od najbliższej ulicy.</string>
+    <string name="arrived_at_intermediate_point">Dotarłeś do punktu drogi</string>
+    <string name="context_menu_item_intermediate_point">Dodaj punkt drogi</string>
+    <string name="map_widget_intermediate_distance">Punkt drogi</string>
+    <string name="ending_point_too_far">Punkt końcowy jest zbyt daleko od najbliższej ulicy.</string>
+    <string name="btn_add_tag">Dodaj znacznik</string>
+    <string name="btn_advanced_mode">Tryb zaawansowany...</string>
+    <string name="poi_filter_parking">Parking</string>
+    <string name="poi_filter_emergency">Niebezpieczeństwo</string>
+    <string name="poi_filter_public_transport">Transport publiczny</string>
+    <string name="poi_filter_entertainment">Rozrywka</string>
+    <string name="poi_filter_accomodation">Zakwaterowanie</string>
+    <string name="poi_filter_restaurants">Restauracje</string>
+    <string name="poi_filter_sightseeing">Zwiedzanie</string>
+    <string name="osmand_plus_long_description_1000_chars">"OsmAnd+ (Open Street Maps Android) OsmAnd to aplikacja open source do nawigacji używająca szerokiej gamy otwartych danych mapowych. Wszystkie dane, zarówno map rastrowych jak i wektorowych, mogą być przechowywane na karcie pamięci telefonu do użytku offline. OsmAnd posiada również obsługę wyznaczania tras, zarówno w trybie offline jak i online, oraz funkcje nawigacji głosowej. OsmAnd+ jest aplikacją płatną - kupując ją wspierasz projekt, fundujesz rozwój nowych funkcji, oraz otrzymujesz najnowsze aktualizacje. Niektóre z podstawowych funkcji to: - pełną funkcjonalność offline (konfigurowalny folder, w którym zapisywane są pobierane mapy wektorowe i rastrowe) - dostępne do pobrania skrócone mapy wektorowe całego świata - brak limitu ilości map pobranych bezpośrednio w aplikacji - funkcje Wikipedii offline (pobieranie z Wikipedii informacji o ciekawych miejscach), idealne przy zwiedzaniu - możliwość nakładania wielu warstw map, np. ścieżek GPX lub tras nawigacji, ciekawych miejsc, Ulubionych, linii konturowych, przystanków komunikacji miejskiej z możliwością określenia przezroczystości poszczególnych warstw - wyszukiwanie adresów i miejsc bez konieczności łączenia się z Internetem - obliczanie krótkich tras bez połączenia z Internetem (eksperymentalnie) - tryby samochodowy, rowerowy i pieszy wraz z automatycznym przełączanie widoków dzień/noc - opcjonalne powiększanie mapy w zależności od prędkości poruszania się - opcjonalne dopasowywanie mapy do kompasu lub kierunku poruszania się - opcjonalne wskazywanie pasa jazdy oraz ograniczeń prędkości - głosy zarejestrowane i generowane automatycznie "</string>
+	<string name="select_navigation_mode">Wybierz tryb poruszania się</string>
+	<string name="live_monitoring_mode_off">Uruchom\nzapisywanie na bieżąco ścieżki</string>
+	<string name="live_monitoring_mode_on">Zatrzymaj\nzapisywanie na bieżąco ścieżki</string>
+	<string name="map_widget_fluorescent">Odblaskowe trasy</string>
+	<string name="map_widget_show_ruler">Linijka</string>
+	<string name="map_widget_appearance">Różne:</string>
+	<string name="map_widget_view_direction">Kierunek patrzenia</string>
+	<string name="map_widget_transparent">Przezroczysta skórka</string>
+	<string name="monitoring_mode_on">Zatrzymaj\nrejestrację GPX.</string>
+	<string name="gps_wakeup_interval">Częstość wybudzania GPS: %s</string>
+	<string name="int_continuosly">Ciągły</string>
+	<string name="local_openstreetmap_items"/>
+	<string name="tip_day_night_mode_t_v2">"\tTryb wyświetlania niektórych map wektorowych może być wybierany jako dzienny (jaśniejszy) lub nocny (ciemniejszy).\n\tNocne kolory są bezpieczniejsze podczas jazdy w nocy.\n\tMożesz przełączyć tryb dzienny/nocny wybierając \'Menu\'-&gt;\'Zdefiniuj widok\'-&gt;\'Konfiguruj ekran...\'-&gt;\'mapa dzień/noc\'.\n\tMożliwość wyboru:\n\t\'Wschód/Zachód\' - tryb automatyczny, kontrolowany przez pozycję Słońca (domyślny)\n\t\'Dzień\' - zawsze używaj trybu dziennego\n\t\'Noc\' - Zawsze używaj trybu nocnego\n\t\'Czujnik światła\' - wygląd mapy kontrolowany jest przez czujnik światła w Twoim urządzeni (jeśli taki posiadasz) "</string>	
+	<string name="tip_map_switch_t_v2">"\tŹródło mapy oraz wyświetlane warstwy można zmienić przez \'Menu\' -&gt; \'Zdefiniuj widok\' w widoku mapy.\n\tWskazując \'Źródło mapy\' możesz wybrać wykorzystanie pobranych wcześniej map wektorowych, predefiniowanych map rastrowych (włącz wtyczkę \'Online maps\', lub map utworzonych ręcznie z wykorzystaniem narzędzi takich jak OsmAndMapCreator na PC\n\tOsmAnd wspiera również własne źródła map.
+\n "</string>
+	<string name="tip_app_mode_t_v2">"\tOsmAnd wspiera różne (konfigurowalne) profile aplikacji do różnych przypadków użycia.\n\tProfile można zmienić wybierając przycisk w lewym dolnym rogu ekranu (ikonka samochodu, roweru lub pieszego), lub podczas wybierania trasy. "</string>
+	<string name="email">email</string>
 </resources>

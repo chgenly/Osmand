@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources><string name="show_warnings_title">Warnungen anzeigen…</string>
 	<string name="show_warnings_descr">Warnungen für Tempolimits, stationäre Radarkontrollen, Rüttelschwellen u.Ä.</string>
 	<string name="use_compass_navigation_descr">Kompass verwenden, wenn keine andere Richtungsbestimmung möglich</string>
@@ -6,20 +6,10 @@
 	<string name="avoid_motorway">Vermeide Autobahnen</string>
 	<string name="auto_zoom_map_descr">Kartenvergrößerung automatisch der Geschwindigkeit anpassen (während Kartennachführung)</string>
 	<string name="auto_zoom_map">Automatischer Zoom</string>
-	<string name="tip_recent_changes_0_8_3_t">"Änderungen in 0.8.3 :
-		\n\t* Verbessertes Navigationsverhalten
-		\n\t* Option \'Vermeide Autobahnen\'
-		\n\t* Anzeige von cycleway=track
-		\n\t* Oberfläche vervollständigt (Icons)
-		\n\t* Einige Fehlerbehebungen"</string>
+	<string name="tip_recent_changes_0_8_3_t">Änderungen in 0.8.3 :\n\n\t* Wegpunkte setzen\n\t\t\n\t* Verbessertes Navigationsverhalten\n\t\t\n\t* Option \'Vermeide Autobahnen\'\n\t\t\n\t* Anzeige von cycleway=track\n\t\t\n\t* Einige Fehlerbehebungen</string>
 	<string name="snap_to_road_descr">Position während der Navigation auf Straßen einrasten</string>
 	<string name="snap_to_road">Auf Straße einrasten</string>
-	<string name="tip_recent_changes_0_8_2_t">"Änderungen in 0.8.2 :
-		\n\t* Verbessertes Routing
-		\n\t* Konfigurierbare Schaltflächen
-		\n\t* Karteneinstellungen auf Kartenbildschirm umgezogen
-		\n\t* Bildschirmsperrtaste mit Logging-Einstellungen
-		\n\t* Fehlerbehebung für Arabische Schrift, Kannada-Schrift und linksläufige Schriften"</string>
+	<string name="tip_recent_changes_0_8_2_t">Änderungen in 0.8.2 :\n\t\t\n\t* Verbessertes Routing\n\t\t\n\t* Konfigurierbare Schaltflächen\n\t\t\n\t* Karteneinstellungen auf Kartenbildschirm umgezogen\n\t\t\n\t* Bildschirmsperrtaste mit Logging-Einstellungen\n\t\t\n\t* Fehlerbehebung für Arabische Schrift, Kannada-Schrift und linksläufige Schriften</string>
 	<string name="osmand_short_description_80_chars">OsmAnd ist eine Open-Source-Navigationsapplikation für Offline- und Onlinekarten</string>
 	<string name="osmand_long_description_1000_chars">
 		OsmAnd (OSM Automated Navigation Directions)
@@ -68,8 +58,8 @@
 		-  optionaler Fahrspuranzeige, Geschwindigkeitswarnung, aufgenommene oder TTS Sprachansagen
 	</string>
 	<string name="select_navigation_mode">Nutzerprofil wählen:</string>
-	<string name="day_night_info_description">Sonnenaufgang: %1$s \nSonnenuntergang: %2$s
-	</string>
+	<string name="day_night_info_description">"Sonnenaufgang: %1$s
+\nSonnenuntergang: %2$s "</string>
 	<string name="day_night_info">Tag/Nacht-Information</string>
 	<string name="asap">So bald wie möglich</string>
 	<string name="save_route_as_gpx">Route als GPX-Datei speichern</string>
@@ -121,9 +111,8 @@
 	<string name="native_rendering">Natives Rendern</string>
 	<string name="animate_routing">Simuliere Navigation</string>
 	<string name="test_voice_prompts">Sprachansagen testen</string>
-	<string name="switch_to_raster_map_to_see">Keine Offline-Vektor-Karte für dieses Gebiet vorhanden.
-		\n\t
-		\n\tBitte Vektor-Karte via \'Einstellungen\' → \'Offline-Daten\' laden, oder Online-Karte via \'Einstellungen\' → \'Landkarten\' verwenden.</string>
+	<string name="switch_to_raster_map_to_see">Keine Offline-Vektor-Karte für dieses Gebiet vorhanden. Bitte Vektor-Karte via \'Einstellungen\' → \'Offline-Daten\' laden.
+\n\nAlternativ auf Online-Karten wechseln (müssen zuvor im Plugin-Manager aktiviert werden).</string>
 	<string name="tip_recent_changes_0_7_2_t">"Änderungen in 0.7.2 :
 		\n\t- Native rendering auf allen Geräten
 		\n\t- Editiere POIs offline
@@ -307,8 +296,7 @@
 	<string name="download_files_not_enough_space">Nicht genügend freier Speicher vorhanden zum Laden von %1$s MB (frei: %2$s).</string>
 	<string name="download_files_question_space">{2} MB freier Speicher vorhanden! {0} Datei(en) ({1} MB) herunterladen?</string>
 	<string name="tip_select_destination_point">Ziel wählen</string>
-	<string name="tip_select_destination_point_t">\tEin Ziel kann direkt in der Karte über das Kontextmenü → \'Als Ziel wählen\', aus der Such-Funktion heraus oder über die Favoritenliste durch langes Drücken gewählt werden.
-		\n\tDer Zielpunkt wird als orangefarbener Punkt auf der Karte markiert. Zu einem gewählten Ziel zeigt OsmAnd auf der Karte die Entfernung und die Richtung (orangefarbenes Dreieck) an.</string>
+	<string name="tip_select_destination_point_t">\tEin Ziel kann direkt in der Karte über das Kontextmenü → \'Als Ziel wählen\', aus der Such-Funktion heraus oder über die Favoritenliste durch langes Drücken gewählt werden.\n\tDer Zielpunkt wird als orangefarbener Punkt auf der Karte markiert. Zu einem gewählten Ziel zeigt OsmAnd auf der Karte die Entfernung und die Richtung (orangefarbenes Dreieck) an.</string>
 	<string name="tip_recent_changes_0_6_9_t">"Änderungen in 0.6.9 :
 		\n\t- Verbesserte Offline-Kartenanzeige 
 		\n\t- Schnelles \"Native Rendering\" - siehe Development-Einstellungen (funktioniert evtl. nicht auf jedem Gerät)
@@ -372,7 +360,7 @@
 	<string name="search_position_fixed">Festgelegt</string>
 	<string name="search_position_current_location">Aktuelle Position …</string>
 	<string name="search_position_map_view">Letzte Kartenposition</string>
-	<string name="select_search_position">Suche nahe:</string>
+	<string name="select_search_position">Suchen in der Nähe von:</string>
 	<string name="context_menu_item_search">In der Nähe suchen</string>
 	<string name="tip_recent_changes_0_6_7_t">"Verbesserungen in 0.6.7:
 		\n\t- Offline-Daten Manager (Herunterladen, Löschen, und Aktivieren / Deaktivieren von Offline-Daten direkt in OsmAnd)
@@ -435,7 +423,7 @@
 	<string name="local_indexes_cat_voice">Sprachansagen (Aufnahmen)</string>
 	<string name="local_indexes_cat_gpx">GPX-Daten</string>
 	<string name="local_indexes_cat_tile">Online-Karten (Kacheln)</string>
-	<string name="local_indexes_cat_map">Offline-Karten (Vektor)\n</string>
+	<string name="local_indexes_cat_map">Offline-Karten (Vektor)</string>
 	<string name="local_indexes_cat_poi">POI-Daten</string>
 	<string name="ttsvoice">TTS Sprachansage</string>
 	<string name="search_offline_clear_search">Neue Suche</string>
@@ -488,14 +476,13 @@
 	<string name="internet_not_available">Internet Verbindung erforderlich aber nicht verfügbar</string>
 	<string name="install_more">Weitere installieren …</string>
 	<string name="tip_update_index">Update der Offline-Daten</string>
-	<string name="tip_update_index_t">Aktuelle Kartendaten sind natürlich wichtig. OsmAnd bietet einen Download-Manager, mit dem Sie die Verfügbarkeit neuerer Offline-Daten prüfen können.
-		\n\nUpdates finden Sie via \'Einstellungen\' → \'Offline-Daten\'.
-		\nNachdem die Liste verfügbarer Offline-Daten geladen wurde, kann auf Wunsch mit der Option \'Menü\' → \'Filter Gespeicherte\' auf Updates eingegrenzt werden, zu denen auf dem Gerät bereits Vorgänger existieren.
-		\n\nAngezeigt werden verfügbare Updates nach dem folgenden Farbschema:
-		\n \'Grün\' - Daten sind aktuell
-		\n \'Blau\' - neuere Version vorhanden
-		\n \'Dunkelgrün/-blau\' - kennzeichnen entsprechend auf dem Gerät deaktivierte Karten
-	</string>
+	<string name="tip_update_index_t">"Aktuelle Kartendaten sind natürlich wichtig. OsmAnd bietet einen Download-Manager, mit dem Sie die Verfügbarkeit neuerer Offline-Daten prüfen können.
+\n\nUpdates finden Sie via \'Einstellungen\' → \'Offline-Daten\'.
+\nNachdem die Liste verfügbarer Offline-Daten geladen wurde, kann auf Wunsch mit der Option \'Menü\' → \'Filter Gespeicherte\' auf Updates eingegrenzt werden, zu denen auf dem Gerät bereits Vorgänger existieren.
+\n\nAngezeigt werden verfügbare Updates nach dem folgenden Farbschema:
+\n \'Grün\' - Daten sind aktuell
+\n \'Blau\' - neuere Version vorhanden
+\n \'Dunkelgrün/-blau\' - kennzeichnen entsprechend auf dem Gerät deaktivierte Karten "</string>
 	<string name="level_to_switch_vector_raster_descr">Minimaler Zoomlevel bis zu dem Offline-Vektor-Karten (statt Kacheln) verwendet werden sollen</string>
 	<string name="level_to_switch_vector_raster">Min. Vektor-Zoomlevel</string>
 	<string name="tip_location_sharing">Lokation mitteilen</string>
@@ -549,7 +536,7 @@
 	</string>
 	<string name="next_button">Weiter</string>
 	<string name="previous_button">Zurück</string>
-	<string name="unit_of_length_descr">Verwendete Längen- und Geschwindigkeitseinheiten</string>
+	<string name="unit_of_length_descr">Längen- und Geschwindigkeitseinheiten auswählen</string>
 	<string name="unit_of_length">Längeneinheiten</string>
 	<string name="si_mi_foots">Meilen/Fuß</string>
 	<string name="si_mi_yard">Meilen/Yards</string>
@@ -659,8 +646,8 @@
 	<string name="unknown_location">Position noch nicht ermittelt</string>
 	<string name="download_files">Laden</string>
 	<string name="context_menu_item_search_transport">Suche ÖPNV</string>
-	<string name="transport_searching_transport">Suche ÖPNV (kein Ziel)</string>
-	<string name="transport_searching_route">Suche ÖPNV (Ziel {0})</string>
+	<string name="transport_searching_transport">ÖPNV-Ergebnisse (kein Ziel):</string>
+	<string name="transport_searching_route">ÖPNV-Ergebnisse (Ziel {0}):</string>
 	<string name="transport_search_none">kein</string>
 	<string name="transport_search_again">ÖPNV-Suche zurücksetzen</string>
 	<string name="map_index">Karte</string>
@@ -821,7 +808,7 @@
 	<string name="update_existing">Ersetzen</string>
 	<string name="only_show">Route nur anzeigen</string>
 	<string name="follow">Navigation starten</string>
-	<string name="recalculate_route_to_your_location">Nutzerprofil wählen:</string>
+	<string name="recalculate_route_to_your_location">Nutzerprofil:</string>
 	<string name="mark_final_location_first">Bitte erst ein Ziel wählen</string>
 	<string name="get_directions">Navigation</string>
 	<string name="show_gps_status">GPS-Status anzeigen</string>
@@ -871,7 +858,7 @@
 	<string name="save_track_interval_descr">Intervall zwischen zwei Positionsbestimmungen</string>
 	<string name="save_track_interval">Logging-Intervall</string>
 	<string name="save_track_to_gpx_descrp">Zurückgelegte Strecken werden nach Tagen gruppiert als GPX auf der SD-Karte gespeichert</string>
-	<string name="save_track_to_gpx">Logging aktivieren</string>
+	<string name="save_track_to_gpx">Logging in GPX-Datei aktivieren</string>
 	<string name="navigate_to">Als Ziel wählen</string>
 	<string name="update_tile">Karte (Kacheln) aktualisieren</string>
 	<string name="reload_tile">Kartenteile (Kacheln) aktualisieren</string>
@@ -880,7 +867,7 @@
 	<string name="show_osm_bugs">OSM-Fehler</string>
 	<string name="favourites_activity">Markierte Orte</string>
 	<string name="add_to_favourite">Als Favorit speichern</string>
-	<string name="use_english_names_descr">Englische oder einheimische Bezeichnungen in Karten</string>
+	<string name="use_english_names_descr">Englische oder einheimische Namen in der Karte verwenden</string>
 	<string name="use_english_names">Englische Namen</string>
 	<string name="app_settings">Anwendungseinstellungen</string>
 	<string name="search_address">Adresse suchen</string>
@@ -914,7 +901,7 @@
 	<string name="search_button">Suche</string>
 	<string name="search_activity">Suche</string>
 	<string name="searchpoi_activity">POI wählen</string>
-	<string name="search_POI_level_btn">Finde mehr</string>
+	<string name="search_POI_level_btn">Weitere Ergebnisse</string>
 	<string name="incremental_search_city">Suche Stadt inkrementell. Um Städte/Postleitzahlen zu finden mindestens 3 Zeichen eingeben.</string>
 	<string name="incremental_search_street">Suche Straße inkrementell</string>
 	<string name="incremental_search_building">Suche Hausnr. inkrementell</string>
@@ -1000,8 +987,8 @@
 	<string name="edit_filter_delete_menu_item">Löschen</string>
 	<string name="edit_filter_save_as_menu_item">Speichern als</string>
 	<string name="edit_filter_delete_dialog_title">Ausgewählten Filter wirklich löschen?</string>
-	<string name="edit_filter_delete_message">Der Filter {0} wurde gelöscht.</string>
-	<string name="edit_filter_create_message">Der Filter {0} wurde erstellt.</string>
+	<string name="edit_filter_delete_message">Der Filter {0} wurde gelöscht</string>
+	<string name="edit_filter_create_message">Der Filter {0} wurde erstellt</string>
 	<string name="default_buttons_selectall">Alles markieren</string>
 	<string name="offline_navigation_not_available">OsmAnd Offline Navigation steht zur Zeit nicht zur Verfügung.</string>
 	<string name="left_side_navigation">Linksverkehr</string>
@@ -1030,14 +1017,14 @@
 		\n\t* Knopf zum De/Aktivieren der Streckenaufzeichnung"
 	</string>
 	<string name="update_downlod_list">Liste neu laden</string>
-	<string name="starting_point_too_far">Startpunkt zu weit entfernt von nächster Straße</string>
+	<string name="starting_point_too_far">Startpunkt zu weit von nächster Straße entfernt.</string>
 	<string name="shared_location">Shared location</string>
 	<string name="osmand_parking_event">Fahrzeug vom Parkplatz abholen</string>
 	<string name="osmand_parking_warning">Warnung</string>
 	<string name="osmand_parking_warning_text">Hinweis zum Abholen des Fahrzeugs wurde vormals zum Kalender hinzugefügt. Hinweis besteht solange, bis dieser manuell gelöscht wird.</string>
 	<string name="osmand_parking_time_limit_title">Zeitlimit für Parken setzen</string>
 	<string name="osmand_parking_delete_confirm">Soll die Position des geparkten Fahrzeugs gelöscht werden?</string>
-	<string name="osmand_parking_delete">Parplatz-Marker löschen</string>
+	<string name="osmand_parking_delete">Parkplatz-Marker löschen</string>
 	<string name="osmand_parking_choose_type">Parkplatz-Eigenschaft wählen</string>
 	<string name="osmand_parking_lim_text">zeitlich beschränkt</string>
 	<string name="osmand_parking_no_lim_text">zeitlich unbeschränkt</string>
@@ -1053,15 +1040,15 @@
 	<string name="osmand_parking_plugin_name">Parkplatz-Standort-Plugin</string>
 	<string name="context_menu_item_add_parking_point">Parkplatz-Standort festlegen</string>
 	<string name="context_menu_item_delete_parking_point">Parkplatz-Standort löschen</string>
-	<string name="gpxup_public">Public</string>
+	<string name="gpxup_public">Öffentlich</string>
 	<string name="gpxup_identifiable">Identifiable</string>
 	<string name="gpxup_trackable">Trackable</string>
-	<string name="gpxup_private">Private</string>
+	<string name="gpxup_private">Privat</string>
 	<string name="global_app_allocated_memory_descr">Belegter Speicher %1$s MB (Android Limit %2$s MB, Dalvik %3$s MB).</string>
 	<string name="global_app_allocated_memory">Belegter Speicher</string>
 	<string name="native_app_allocated_memory_descr">Insgesamt durch App belegter nativer Speicher %1$s MB (Dalvik %2$s MB, anderer %3$s MB). Proportionaler Speicher %4$s MB (Android Limit %5$s MB, Dalvik %6$s MB).</string>
 	<string name="native_app_allocated_memory">Gesamter nativer Speicher</string>
-	<string name="select_animate_speedup">beschleunigte Routen-Animation auswählen</string>
+	<string name="select_animate_speedup">Beschleunigungswert für Routen-Animation wählen</string>
 	<string name="osmand_parking_hours">Stunde(n)</string>
 	<string name="osmand_parking_minutes">Minuten</string>
 	<string name="osmand_parking_position_description_add_time">Das Auto wurde hier geparkt:</string>
@@ -1079,7 +1066,7 @@
 	<string name="map_widget_back_to_loc">Wo bin ich</string>
 	<string name="map_widget_lock_screen">Bildschimr sperren</string>
 	<string name="map_widget_compass">Kompass</string>
-	<string name="map_widget_top_stack">Statusbalken:</string>
+	<string name="map_widget_top_stack">Statusleiste:</string>
 	<string name="map_widget_reset">Auf Voreinstellung setzen</string>
 	<string name="map_widget_right_stack">Rechte Seite:</string>
 	<string name="map_widget_left_stack">Linke Seite:</string>
@@ -1093,7 +1080,7 @@
 	<string name="map_widget_next_turn_small">Nächste Abzweigung (klein)</string>
 	<string name="map_widget_next_next_turn">Übernächste Abzweigung</string>
 	<string name="map_widget_mini_route">Mini-Routenkarte</string>
-	<string name="bg_service_screen_lock">Display sperren</string>
+	<string name="bg_service_screen_lock">Bildschirm sperren</string>
 	<string name="bg_service_screen_unlock">Bildschirm entsperren</string>
 	<string name="bg_service_screen_lock_toast">Bildschirm gesperrt</string>
 	<string name="bg_service_interval">Aufwachintervall setzen:</string>
@@ -1133,4 +1120,26 @@
 <string name="poi_filter_accomodation">Unterkunft</string>
 <string name="poi_filter_restaurants">Restaurants</string>
 <string name="poi_filter_sightseeing">Sehenswürdigkeiten</string>
-</resources>
+<string name="arrived_at_intermediate_point">Sie sind an Ihrem Zwischen punkt angekommen</string>
+<string name="context_menu_item_intermediate_point">Wegpunkt einfügen</string>
+<string name="map_widget_intermediate_distance">Wegpunkt</string>
+<string name="ending_point_too_far">Endpunkt zu weit von der nächsten Straße entfernt.</string>
+<string name="intermediate_point_too_far">Wegpunkt %1$s zu weit von der nächsten Straße entfernt.</string>
+<string name="tip_recent_changes_0_8_4_t">Änderungen in 0.8.4 : Aktualisiert</string>
+<string name="context_menu_item_last_intermediate_point">Letzten Wegpunkt setzen</string>
+<string name="context_menu_item_first_intermediate_point">Ersten Wegpunkt setzen</string>
+<string name="target_point">Wegpunkt %1$s</string>
+<string name="target_points">Wegpunkte</string>
+<string name="add_as_first_destination_point">Als ersten Wegpunkt einfügen</string>
+<string name="add_as_last_destination_point">Als letzten Wegpunkt einfügen</string>
+<string name="replace_destination_point">Zielpunkt ersetzen</string>
+<string name="new_destination_point_dialog">Sie haben bereits einen Zielpunkt gewählt.</string>
+<string name="delete_target_point">Wegpunkt löschen</string>
+	<string name="map_widget_monitoring_services">Aufzeichnungsdienste</string>
+	<string name="no_route">Keine Route</string>
+	<string name="intermediate_point">Wegpunkt %1$s</string>
+    <string name="map_widget_show_destionation_arrow">Richtung zum Ziel anzeigen</string>
+    <string name="non_optimal_route_calculation">Berechne möglicherweise nicht optimale Routen über lange Distanzen</string>
+    <string name="gps_not_available">Bitte GPS-Ortung in den Einstellungen aktivieren</string>
+    <string name="enable_plugin_monitoring_services">"Überwachungsplugins (Verfolgung, Live-Verfolgung) aktivieren, um Überwachungsdienste zu verwenden "</string>
+    </resources>
