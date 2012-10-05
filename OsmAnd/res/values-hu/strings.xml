@@ -1030,7 +1030,7 @@
     <string name="map_widget_intermediate_distance">Köztes célpont</string>
     <string name="ending_point_too_far">A célpont közelében nem található út.</string>
     <string name="btn_add_tag">Címke hozzáadása</string>
-    <string name="btn_advanced_mode">Haladó mód…</string>
+    <string name="btn_advanced_mode">Haladó mód...</string>
     <string name="poi_filter_parking">Parkoló</string>
     <string name="poi_filter_emergency">Vészhelyzet</string>
     <string name="poi_filter_public_transport">Tömegközlekedés</string>
@@ -1045,4 +1045,7 @@
 	<string name="delete_target_point">Célpont törlése</string>
 	<string name="intermediate_point">%1$s. útpont</string>
     <string name="gps_not_available">Kérlek engedélyezd a GPS-t a beállításokban</string>
+    <string name="map_widget_show_destionation_arrow">Célpont irányának megjelenítése</string>
+    <string name="enable_plugin_monitoring_services">"A monitorozási szolgáltatások használatához engedélyezd az Útvonalrögzítés és Alvó állapotú használat bővítményeket "</string>
+    <string name="non_optimal_route_calculation">Esetleg nem optimális útvonal számítása nagyobb távolságokra</string>
     </resources>
